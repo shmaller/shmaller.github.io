@@ -1,6 +1,138 @@
 <!DOCTYPE html>
+
 <html>
-	<body>
-		<h1>hello</h1>
+	<head>
+
+		<TITLE>
+			Fear And Loathing In Central Texas
+		</TITLE>
+
+		<link rel='icon' href='/images/favicon.ico' type='image/x-icon'/>
+
+		<style>
+			h1{
+				font-family:"Arial",sans-serif;
+			}
+
+			p{
+				font-family:"Baskerville Old Face","Garamond",serif;
+				margin:5px;
+			}
+
+			body{
+				margin:0;
+			}
+
+			@keyframes fade_in{
+				from {opacity:25%;}
+				to {opacity: 100%;}
+			}
+
+			@keyframes fade_out{
+				from {opacity:100%}
+				to {opacity:0%;}
+			}
+
+			img{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 50%;
+				max-width: 100%;
+				height: auto;
+			}
+
+			/* Container holding the landing image and text */
+			.landing_page {
+			  position: relative;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Centered text */
+			.webpagetext {
+			  position: absolute;
+			  top: 25%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+
+			}
+
+		</style>
+
+	</head>
+
+	<body onload="setTimeout('show_page_content()',3000)">
+		<script>			
+			function show_page_content() {
+				document.getElementById("page_content").style.display = "block";
+			}
+		</script>
+
+		<div class="landing_page" style="background-color: black;">
+
+			<!--landing image-->
+			<img 
+			src="/images/crowd.jpg" 
+			
+			alt="crowd" 
+			
+			style="
+			width: 1450px;
+			height:975px;
+			opacity: 25%;
+			animation-name: fade_in;
+			animation-delay: 2s;
+			animation-duration: 5s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+			">
+
+			<!--landing text-->
+			<div class="webpagetext" 
+			style="
+			animation-name: fade_out;
+			animation-delay: 2s;
+			animation-duration: 2.5s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+			font-family:'Baskerville Old Face','Garamond',serif; 
+			font-size: 48px
+			">
+
+				nicholasboni.com
+			</div>
+
+		</div>
+
+
+
+		<div id="page_content" style="display: none">
+			<div style="background-color: black;">
+				<img src="/images/crowd2.jpg" alt="crowd2" style="width:1450px;height:975px;">
+			</div>
+
+
+			<div style="background-color: black;">
+				<img src="/images/wurst.jpg" alt="wurst" style="width:1450px;height:975px;">
+			</div>
+
+			<div style="background-color: black;">
+				<img src="/images/sunset.jpg" alt="sunset" style="width:1450px;height:975px;">
+			</div>
+
+			<div style="background-color:black; color:white; margin:0px">
+				<h1>Chapter One</h1>
+			</div>
+
+			<div>
+				<p>
+					We were halfway through the desert when the drugs took hold. There was some kid with us, and he was freaked out to fuck. I gripped the wheel tightly as the bats started to swoop. The endless desert shimmered around us, and my attorney's face took on the snout of a horrific anteater. I knew then I should bash his brains out, but my eyes were transfixed on the road receding ever into the distance -- nothing but monsters from here to there.
+				</p>
+			</div>
+
+		</div>
+
 	</body>
+
 </html>
