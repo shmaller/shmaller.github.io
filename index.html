@@ -62,15 +62,19 @@
 
 	</head>
 
-	<body onload="setTimeout('show_page_content()',3000)">
+	<body onload="setTimeout('show_page_content()',3000)" onresize="get_clickable_coords()">
 		<script>			
 			function show_page_content() {
 				document.getElementById("page_content").style.display = "block";
 			}
 
-			/*function get_clickable_coords(){
-				var width = 0.69 * 
-			}*/
+			function get_clickable_coords(){
+				var center_x_value = 0.625 * window.innerWidth;
+				var image_height = 0.6755 * window.innerWidth; //aspect ratio of image
+				var center_y_value = 0.62 * image_height;
+
+				document.getElementById("clickable_area").coords = center_x_value + "," + center_y_value + ",50"
+			}
 		</script>
 
 		<div class="landing_page" style="background-color: black;">
@@ -122,7 +126,7 @@
 			<div style="background-color: black;">
 				<img src="/images/sunset.jpg" alt="sunset" usemap="#sun">
 				<map name="sun">
-					<area shape="circle" coords="1150,775,50" alt="sunset" href="sun.html">
+					<area id="clickable_area" shape="circle" coords="1150,775,50" alt="sunset" href="sun.html">
 				</map>
 
 				<script>
