@@ -62,18 +62,21 @@
 
 	</head>
 
-	<body onload="setTimeout('show_page_content()',3000)" onresize="get_clickable_coords()">
+	<body onload="setTimeout('show_page_content()',3000); get_clickable_coords()" onresize="get_clickable_coords()">
 		<script>			
 			function show_page_content() {
 				document.getElementById("page_content").style.display = "block";
 			}
 
 			function get_clickable_coords(){
-				var center_x_value = 0.625 * window.innerWidth;
-				var image_height = 0.6755 * window.innerWidth; //aspect ratio of image
-				var center_y_value = 0.62 * image_height;
+				var image_width = window.innerWidth; //image width = browser width
+				var image_height = 0.6755 * image_width; //calculated by aspect ratio of image
 
-				document.getElementById("clickable_area").coords = center_x_value + "," + center_y_value + ",50"
+				var center_x_value = 0.625 * image_width;
+				var center_y_value = 0.62 * image_height;
+				var radius = 0.035 * image_width;
+
+				document.getElementById("clickable_area").coords = center_x_value + "," + center_y_value + "," + radius
 			}
 		</script>
 
