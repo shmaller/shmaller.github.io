@@ -1,36 +1,34 @@
-<style>
-	h1{
-		font-family:"Arial",sans-serif;
-		background-color:"black";
-		color:"white";
-		
-	}
+h1{
+	font-family:"Arial",sans-serif;
+	background-color:"black";
+	color:"white";
 
-	p{
-		font-family:"Baskerville Old Face","Garamond",serif;
-		margin:5px;
-	}
+}
 
-	body{
-		margin:0;
-	}
+p{
+	font-family:"Baskerville Old Face","Garamond",serif;
+	margin:5px;
+}
 
-	@keyframes fade_in{
-		from {opacity:25%;}
-		to {opacity: 100%;}
-	}
+body{
+	margin:0;
+}
 
-	@keyframes fade_out{
-		from {opacity:100%}
-		to {opacity:0%;}
-	}
+@keyframes fade_in{
+	from {opacity:25%;}
+	to {opacity: 100%;}
+}
 
-	img{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 100%;
-		max-width: 100%;
-		height: auto;
-	}
-</style>
+@keyframes fade_out{
+	from {opacity:100%}
+	to {opacity:0%;}
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}

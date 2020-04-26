@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
 
+	<head>
 		<TITLE>
 			Fear And Loathing In Central Texas
 		</TITLE>
 
 		<link rel='icon' href='/images/favicon.ico' type='image/x-icon'/>
-
 		<link rel="stylesheet" href="style.css" type="text/css">
 
 		<style>
-
 			/* Container holding the landing image and text */
 			.landing_page {
 			  position: relative;
@@ -28,18 +26,14 @@
 			  transform: translate(-50%, -50%);
 
 			}
-
 		</style>
 
-	</head>
-
-	<body onload="setTimeout('show_page_content()',3000); get_clickable_coords()" onresize="get_clickable_coords()">
 		<script>			
 			function show_page_content() {
 				document.getElementById("page_content").style.display = "block";
 			}
 
-			function get_clickable_coords(){
+			function set_clickable_coords(){
 				var image_width = window.innerWidth; //image width = browser width
 				var image_height = 0.6755 * image_width; //calculated by aspect ratio of image
 
@@ -50,6 +44,10 @@
 				document.getElementById("clickable_area").coords = center_x_value + "," + center_y_value + "," + radius
 			}
 		</script>
+
+	</head>
+
+	<body onload="/*setTimeout('show_page_content()',3000);*/ show_page_content(); get_clickable_coords()" onresize="set_clickable_coords()">
 
 		<div class="landing_page" style="background-color: black;">
 
@@ -85,28 +83,16 @@
 
 		</div>
 
-
-
 		<div id="page_content" style="display: none">
-			<div style="background-color: black;">
+			<div>
 				<img src="/images/crowd2.jpg" alt="crowd2">
-			</div>
 
-
-			<div style="background-color: black;">
 				<img src="/images/wurst.jpg" alt="wurst">
-			</div>
 
-			<div style="background-color: black;">
 				<img src="/images/sunset.jpg" alt="sunset" usemap="#sun">
 				<map name="sun">
 					<area id="clickable_area" shape="circle" coords="1150,775,50" alt="sunset" href="sun.html">
 				</map>
-
-				<script>
-					
-				</script>
-
 			</div>
 
 			<div>
