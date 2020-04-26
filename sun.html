@@ -11,12 +11,17 @@
 				var image_width = window.innerWidth; //image width = browser width
 				var image_height = 0.6755 * image_width; //calculated by aspect ratio of image
 
-				var top_left_x = 0
-				var top_left_y = 0.2114 * image_height;
+				var top_left_x = 0;
+				var top_left_y = 0.22 * image_height;
+				var top_right_x = 0.2632 * image_width;  
+				var top_right_y = 0.2063 * image_height;
+				var bottom_left_x = 0;
+				var bottom_left_y = 0.2706 * image_height;
 				var bottom_right_x = 0.2632 * image_width;
-				var bottom_right_y = 0.3444 * image_height;
+				var bottom_right_y = 0.2965 * image_height;
 
-				document.getElementById("clickable_area").coords = top_left_x + ',' + top_left_y + ',' + bottom_right_x + ',' + bottom_right_y
+				document.getElementById("clickable_area").coords = top_left_x + ',' + top_left_y + ',' +
+				top_right_x + ',' + top_right_y + ',' + bottom_left_x + ',' + bottom_left_y +  bottom_right_x + ',' + bottom_right_y;
 			}
 		</script>
 
@@ -29,7 +34,7 @@
 		<img src="/images/bubbles.jpg" alt="bubbles">
 		<img src="/images/applebarrel.jpg" alt="applebarrel" usemap="#applebarrel">
 		<map name="applebarrel">
-			<area id="clickable_area" shape="rect" coords="0,0,0,0" href="rose.html">
+			<area id="clickable_area" shape="poly" coords="0,0,0,0,0,0,0,0" href="rose.html">
 
 		<div>
 			<h1>Chapter Two</h1>
