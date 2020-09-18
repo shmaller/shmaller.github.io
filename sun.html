@@ -3,9 +3,10 @@
 	<head>
 		<TITLE>A Torrent of Sunbeams</TITLE>
 
-		<link rel='icon' href='/images/favicon.ico' type='image/x-icon'/>
+		<link rel='icon' href='images/favicon.ico' type='image/x-icon'/>
 		<link rel='stylesheet' href="style.css" type="text/css">
 
+		<script src="script.js"></script>
 		<script>
 			function set_clickable_coords(){
 				var image_width = window.innerWidth; //image width = browser width
@@ -29,19 +30,39 @@
 
 	<body onload="set_clickable_coords();" onresize="set_clickable_coords()">
 
-		<img src="/images/trashworld.jpg" alt="trashworld">
-		<img src="/images/goldwater.jpg" alt="goldwater">
-		<img src="/images/bubbles.jpg" alt="bubbles">
-		<img src="/images/applebarrel.jpg" alt="applebarrel" usemap="#applebarrel">
-		<map name="applebarrel">
-			<area id="clickable_area" shape="poly" coords="0,0,0,0,0,0,0,0" href="rose.html">
+		<div class="menu_icon" onclick="
+		menu_icon_animation(this);
+		operate_menu();
+		">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
 
-		<div>
-			<h1>Chapter Two</h1>
+		<div class="sidebar" id="menu" style="width: 0px">
+			<a href="index.html">Home</a>
+			<a href="asunder.html">A City Asunder</a>
+			<a href="fear.html">Journey in Images</a>
+			<a href="about.html">About</a>
+		</div>
 
-			<p>
-				Bronze by gold heard the hoofirons, steelyrining imperthnthn thnthnthn. A husky fifenote blew.<br>Blew. Blue bloom is on the<br>Gold pinnacled hair.<br>A jumping rose on satiny breasts of satin, <strong><em>rose of Castille.</em></strong><br>In a giggling peal young goldbronze voices blended. They threw young heads back, bronze gigglegold, to let freefly their laughter.<br><br>Ah, panting, sighing. Sighing, ah, fordone their mirth died down.
-			</p>
+		<div id="main">
+
+			<img src="images/trashworld.jpg" alt="trashworld">
+			<img src="images/goldwater.jpg" alt="goldwater">
+			<img src="images/bubbles.jpg" alt="bubbles">
+			<img src="images/applebarrel.jpg" alt="applebarrel" usemap="#applebarrel">
+			<map name="applebarrel">
+				<area id="clickable_area" shape="poly" coords="0,0,0,0,0,0,0,0" href="rose.html">
+
+			<div>
+				<h1>Chapter Two</h1>
+
+				<p>
+					Bronze by gold heard the hoofirons, steelyrining imperthnthn thnthnthn. A husky fifenote blew.<br>Blew. Blue bloom is on the<br>Gold pinnacled hair.<br>A jumping rose on satiny breasts of satin, <strong><em>rose of Castille.</em></strong><br>In a giggling peal young goldbronze voices blended. They threw young heads back, bronze gigglegold, to let freefly their laughter.<br><br>Ah, panting, sighing. Sighing, ah, fordone their mirth died down.
+				</p>
+
+			</div>
 
 		</div>
 

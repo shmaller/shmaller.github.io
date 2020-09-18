@@ -1,111 +1,62 @@
 <!DOCTYPE html>
-
 <html>
 
 	<head>
+
 		<TITLE>
-			Fear And Loathing In Central Texas
+			Nicholas Boni
 		</TITLE>
 
-		<link rel='icon' href='/images/favicon.ico' type='image/x-icon'/>
-		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel='icon' href='images/favicon.ico' type='image/x-icon'>
+		<link rel='stylesheet' href="style.css" type="text/css">
 
-		<style>
-			/* Container holding the landing image and text */
-			.landing_page {
-			  position: relative;
-			  text-align: center;
-			  color: white;
-			}
-
-			/* Centered text */
-			.webpagetext {
-			  position: absolute;
-			  top: 25%;
-			  left: 50%;
-			  transform: translate(-50%, -50%);
-
-			}
-		</style>
-
-		<script>			
-			function show_page_content() {
-				document.getElementById("page_content").style.display = "block";
-			}
-
-			function set_clickable_coords(){
-				var image_width = window.innerWidth; //image width = browser width
-				var image_height = 0.6755 * image_width; //calculated by aspect ratio of image
-
-				var center_x_value = 0.625 * image_width;
-				var center_y_value = 0.62 * image_height;
-				var radius = 0.035 * image_width;
-
-				document.getElementById("clickable_area").coords = center_x_value + "," + center_y_value + "," + radius
-			}
-		</script>
+		<script src="script.js"></script>
 
 	</head>
 
-	<body onload="/*setTimeout('show_page_content()',3000);*/ show_page_content(); set_clickable_coords()" onresize="set_clickable_coords()">
+	<body style="background-color: black;">
 
-		<div class="landing_page" style="background-color: black;">
+		<div class="menu_icon" onclick="
+		menu_icon_animation(this);
+		operate_menu();
+		">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
 
-			<!--landing image-->
-			<img 
-			src="/images/crowd.jpg" 
-			
-			alt="crowd" 
-			
-			style="
-			opacity: 25%;
-			animation-name: fade_in;
-			animation-delay: 2s;
-			animation-duration: 5s;
-			animation-iteration-count: 1;
-			animation-fill-mode: forwards;
-			">
+		<div class="sidebar" id="menu" style="width: 0px">
+			<a href="index.html">Home</a>
+			<a href="asunder.html">A City Asunder</a>
+			<a href="fear.html">Journey in Images</a>
+			<a href="about.html">About</a>
+		</div>
+
+		<div id="main">
 
 			<!--landing text-->
-			<div class="webpagetext" 
-			style="
+			<div style="
+			position: absolute; /*fix text position on resize*/
+			top: 35%;
+			left: 55%;
+			color: white;
+			text-align: center;
 			animation-name: fade_out;
-			animation-delay: 2s;
-			animation-duration: 2.5s;
+			animation-delay: 3s;
+			animation-duration: 3s;
 			animation-iteration-count: 1;
 			animation-fill-mode: forwards;
 			font-family:'Baskerville Old Face','Garamond',serif; 
 			font-size: 48px
 			">
-
 				nicholasboni.com
 			</div>
 
-		</div>
-
-		<div id="page_content" style="display: none">
-			<div>
-				<img src="/images/crowd2.jpg" alt="crowd2">
-
-				<img src="/images/wurst.jpg" alt="wurst">
-
-				<img src="/images/sunset.jpg" alt="sunset" usemap="#sun">
-				<map name="sun">
-					<area id="clickable_area" shape="circle" coords="0,0,0" alt="sunset" href="sun.html">
-				</map>
-			</div>
 
 			<div>
-				<h1>Chapter One</h1>
-
-				<p>
-					We were halfway through the desert when the drugs took hold. There was some kid with us, and he was freaked out to fuck. I gripped the wheel tightly as the bats started to swoop. The endless desert <strong><em>shimmered in the sun</em></strong> all around us, and my attorney's face took on the snout of a horrific anteater. I knew then I should bash his brains out, but my eyes were transfixed on the road receding ever into the distance -- nothing but monsters from here to there.
-				</p>
-
+				<img src="images/orangesky.png"	alt="orangesky">
 			</div>
 
 		</div>
-
-	</body>
 
 </html>

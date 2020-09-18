@@ -1,3 +1,6 @@
+/*-------------------------------------*/
+
+/*Text styling stuff*/
 h1{
 	font-family:"Arial",sans-serif;
 	background-color:black;
@@ -13,15 +16,7 @@ body{
 	margin:0;
 }
 
-@keyframes fade_in{
-	from {opacity:25%;}
-	to {opacity: 100%;}
-}
-
-@keyframes fade_out{
-	from {opacity:100%}
-	to {opacity:0%;}
-}
+/*-------------------------------------*/
 
 img{
 	display: block;
@@ -30,4 +25,84 @@ img{
 	width: 100%;
 	max-width: 100%;
 	height: auto;
+}
+
+@keyframes fade_out{
+	from {opacity:100%}
+	to {opacity:0%}
+}
+
+@keyframes fade_in{
+	from {opacity: 25%}
+	to {opacity: 100%}
+}
+
+/*-------------------------------------*/
+
+/*Creating the menu icon*/
+.menu_icon{
+	display: inline-block;
+	position: absolute;
+	cursor: pointer;
+	top: 5%;
+	left: 5%;
+	z-index: 999;
+}
+
+.bar1, .bar2, .bar3{
+	width: 35px;
+	height: 5px;
+	background-color: #333;
+	margin: 6px 0;
+	transition: 0.3s;
+}
+
+.change .bar1{
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px); /*compat?*/
+	transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2{
+	opacity: 0;
+}
+
+.change .bar3{
+	-webkit-transform: rotate(45deg) translate(-8px, -8px);
+	transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/*-------------------------------------*/
+
+.sidebar{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+
+.sidebar a{
+	padding-top: 500px;
+	padding: 25px 8px 8px 32px;
+	text-decoration: none;
+	font-family: "Arial",sans-serif;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidebar a:hover{
+	color: #f1f1f1;
+}
+
+/*Anything with the 'main' tag will be
+pushed to the right when the menu opens.*/
+#main{
+	transition: margin-left 0.5s;
 }
