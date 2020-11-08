@@ -1,3 +1,6 @@
+// Nick Boni
+// Fall 2020
+
 function menu_icon_animation(x){
 	x.classList.toggle("change");
 }
