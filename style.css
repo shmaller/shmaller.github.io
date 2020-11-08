@@ -2,6 +2,7 @@
 
 /*Text styling stuff*/
 h1{
+	margin:100px;
 	font-family:"Arial",sans-serif;
 	background-color:black;
 	color:white;
