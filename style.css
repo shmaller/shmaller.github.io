@@ -5,7 +5,8 @@ Fall 2020*/
 
 /*Text styling stuff*/
 h1{
-	margin:100px;
+	margin:0px;
+	/*margin-bottom: 0px;*/
 	font-family:"Arial",sans-serif;
 	background-color:black;
 	color:white;
@@ -13,7 +14,10 @@ h1{
 
 p{
 	font-family:"Baskerville Old Face","Garamond",serif;
-	margin:200px;
+	margin-top:100px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 100px;
 }
 
 body{
