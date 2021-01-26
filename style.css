@@ -3,7 +3,13 @@ Fall 2020*/
 
 /*-------------------------------------*/
 
+html{
+	scroll-behavior: smooth;
+}
+
+/*-------------------------------------*/
 /*Text styling stuff*/
+
 h1{
 	margin:0px;
 	/*margin-bottom: 0px;*/
@@ -13,18 +19,29 @@ h1{
 }
 
 p{
-	font-family:"Baskerville Old Face","Garamond",serif;
-	margin-top:100px;
-	margin-left: 200px;
-	margin-right: 200px;
-	margin-bottom: 100px;
+	font-family:"Baskerville Old Face",Times,serif;
+	font-size: 14pt;
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 5%;
 }
 
 body{
 	margin:0;
 }
 
+.back_to_top{
+	font-family:"Baskerville Old Face",Times,serif;
+	font-size: 14pt;
+	position: relative;
+	width: max-content;
+	bottom: 20%;
+	left: 80%;
+}
+
 /*-------------------------------------*/
+/*Image styling stuff*/
 
 img{
 	display: block;
@@ -46,11 +63,11 @@ img{
 }
 
 /*-------------------------------------*/
+/*Menu icon styling*/
 
-/*Creating the menu icon*/
 .menu_icon{
 	display: inline-block;
-	position: absolute;
+	position: absolute; /* absolute */
 	cursor: pointer;
 	top: 5%;
 	left: 5%;
@@ -80,6 +97,7 @@ img{
 }
 
 /*-------------------------------------*/
+/*Sidebar styling*/
 
 .sidebar{
 	height: 100%;
@@ -114,3 +132,6 @@ pushed to the right when the menu opens.*/
 #main{
 	transition: margin-left 0.5s;
 }
+
+/*-------------------------------------*/
+/*-------------------------------------*/
