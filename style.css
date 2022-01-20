@@ -32,6 +32,13 @@ body{
 	margin:0;
 }
 
+ul li{
+	margin-top: 2%;
+	/*margin-left: 15%;*/
+	font-family: "Baskerville Old Face",Times,serif;
+	font-size: 14pt;
+}
+
 .back_to_top{
 	font-family:"Baskerville Old Face",Times,serif;
 	font-size: 14pt;
