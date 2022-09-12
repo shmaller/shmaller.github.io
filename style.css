@@ -8,14 +8,25 @@ html{
 }
 
 /*-------------------------------------*/
-/*Text styling stuff*/
+
+/*General text styling stuff*/
 
 h1{
 	margin:0px;
-	/*margin-bottom: 0px;*/
+	padding-left: 5px;
 	font-family:"Arial",sans-serif;
 	background-color:black;
 	color:white;
+}
+
+h2{
+	font-family:"Baskerville Old Face",Times,serif;
+	font-size: 18pt;
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 5%;
+	text-align: left;
 }
 
 p{
@@ -32,12 +43,26 @@ body{
 	margin:0;
 }
 
+
 ul li{
 	margin-top: 2%;
-	/*margin-left: 15%;*/
+	margin-left: 15%;
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: 14pt;
 }
+
+nav{
+	font-family:"Baskerville Old Face",Times,serif;
+	font-size: 18pt;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 5%;
+}
+
+
+/*-------------------------------------*/
+
+/*Sitewide text format*/
 
 .back_to_top{
 	font-family:"Baskerville Old Face",Times,serif;
@@ -48,7 +73,16 @@ ul li{
 	left: 80%;
 }
 
+.homeicon{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 50px;
+	height: 50px;
+}
+
 /*-------------------------------------*/
+
 /*Image styling stuff*/
 
 img{
@@ -58,6 +92,71 @@ img{
 	width: 100%;
 	max-width: 100%;
 	height: auto;
+	z-index: 0;
+}
+
+/*-------------------------------------*/
+
+/*Index style*/
+
+.landing_text{
+	position: absolute; /*fix text position on resize*/
+	top: 35%;
+	left: 55%;
+	color: white;
+	text-align: center;
+	animation-name: fade_out;
+	animation-delay: 3s;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	font-family:'Baskerville Old Face','Garamond',serif; 
+	font-size: 48px;
+}
+
+.photos_text{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	color: white;
+	text-align: center;
+	animation-name: fade_in;
+	animation-delay: 1.0s;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+	font-family: 'Baskerville Old Face','Garamond',serif;
+	font-size: 48px;
+}
+
+.writing_text{
+	position: absolute;
+	top: 60%;
+	left: 45%;
+	color: white;
+	text-align: center;
+	animation-name: fade_in;
+	animation-delay: 1.0s;
+	animation-duration: 1.0s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+	font-family: 'Baskerville Old Face','Garamond',serif;
+	font-size: 48px;	
+}
+
+.about_text{
+	position: absolute;
+	top: 70%;
+	left: 75%;
+	color: white;
+	text-align: center;
+	animation-name: fade_in;
+	animation-delay: 1.0s;
+	animation-duration: 1.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+	font-family: 'Baskerville Old Face','Garamond',serif;
+	font-size: 48px;
 }
 
 @keyframes fade_out{
@@ -66,11 +165,25 @@ img{
 }
 
 @keyframes fade_in{
-	from {opacity: 25%}
+	from {opacity: 0%}
 	to {opacity: 100%}
 }
 
 /*-------------------------------------*/
+
+/*Photo page style*/
+
+.photo_series_links{
+	position: absolute;
+	top: 10%;
+	left: 0%;
+	text-align: center;
+	font-family: "Baskerville Old Face",Times,serif;
+	font-size: 48px;
+}
+
+/*-------------------------------------*/
+
 /*Menu icon styling*/
 
 .menu_icon{
@@ -87,7 +200,7 @@ img{
 	height: 5px;
 	background-color: #333;
 	margin: 6px 0;
-	transition: 0.3s;
+	transition: 0.2s;
 }
 
 .change .bar1{
@@ -105,6 +218,7 @@ img{
 }
 
 /*-------------------------------------*/
+
 /*Sidebar styling*/
 
 .sidebar{

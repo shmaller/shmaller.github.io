@@ -18,3 +18,10 @@ function operate_menu(){
 function show_page_content(){
 	document.getElementById("hidden_content").style.display="block";
 }
+
+function scale_page(){
+	var siteWidth = 1280;
+	var scale = screen.width /siteWidth;
+
+	document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
+}
