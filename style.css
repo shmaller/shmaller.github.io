@@ -64,7 +64,7 @@ nav{
 
 /*-------------------------------------*/
 /*-------------------------------------*/
-/*Sitewide text format*/
+/*Sitewide format*/
 /*-------------------------------------*/
 /*-------------------------------------*/
 
@@ -86,37 +86,47 @@ nav{
 	max-width: 100%;
 }
 
+.container{
+		position: relative;
+	}
+
 /*-------------------------------------*/
 /*-------------------------------------*/
 /*Image styling stuff*/
 /*-------------------------------------*/
 /*-------------------------------------*/
 
-img{
+/*img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
 	/*max-width: 100%;*/
-	/*height: auto;*/
+	/*height: auto;
 	z-index: 0;
 }
-
+*/
 /*-------------------------------------*/
 /*-------------------------------------*/
 /*Index style*/
 /*-------------------------------------*/
 /*-------------------------------------*/
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 450px){
+
+	.orangesky{
+		width: 450px;
+		height: 301px;
+	}
+
 
 	.landing_text{
 		position: fixed;
 		top: 5%;
-		left: 15%;
+		/*left: 15%;*/
 		text-align: center;
 		font-family:'Baskerville Old Face',Times,serif; 
-		font-size: xxx-large;
+		font-size: xx-large;
 		color: white;
 		animation-name: fade_out;
 		animation-delay: 3s;
@@ -127,25 +137,26 @@ img{
 
 	.photos_text{
 		position: fixed;
-		top: 35%;
+		top: 10%;
 		/*left: 50%;*/
 		text-align: center;
 		font-family: 'Baskerville Old Face',Times,serif;
-		font-size: xxx-large;
+		font-size: xx-large;
 		animation-name: fade_in;
 		animation-delay: 1.0s;
 		animation-duration: 0.5s;
 		animation-iteration-count: 1;
 		animation-fill-mode: both;
+		/*-webkit-backface-visibility: hidden;*/
 	}
 
 	.writing_text{
 		position: fixed;
-		top: 50%;
+		top: 15%;
 		/*left: 50%;*/
 		text-align: center;
 		font-family: 'Baskerville Old Face',Times,serif;
-		font-size: xxx-large;
+		font-size: xx-large;
 		animation-name: fade_in;
 		animation-delay: 1.0s;
 		animation-duration: 1.0s;
@@ -155,11 +166,11 @@ img{
 
 	.about_text{
 		position: fixed;
-		top: 65%;
+		top: 20%;
 		/*left: 50%;*/
 		text-align: center;
 		font-family: 'Baskerville Old Face',Times,serif;
-		font-size: xxx-large;
+		font-size: xx-large;
 		animation-name: fade_in;
 		animation-delay: 1.0s;
 		animation-duration: 1.5s;
@@ -168,7 +179,16 @@ img{
 	}
 }
 
-@media only screen and (min-width: 751px){
+@media only screen and (min-width: 451px){
+
+	.container{
+		position: relative;
+	}
+
+	.orangesky{
+		max-width: 100%;
+		height: auto;
+	}
 
 	.landing_text{
 		position: fixed; /*fix text position on resize*/
