@@ -126,7 +126,7 @@ nav{
 		/*left: 15%;*/
 		text-align: center;
 		font-family:'Baskerville Old Face',Times,serif; 
-		font-size: large;
+		font-size: xx-large;
 		color: white;
 		animation-name: fade_out;
 		animation-delay: 3s;
@@ -141,7 +141,7 @@ nav{
 		/*left: 50%;*/
 		text-align: center;
 		font-family: 'Baskerville Old Face',Times,serif;
-		font-size: large;
+		font-size: xx-large;
 		animation-name: fade_in;
 		animation-delay: 1.0s;
 		animation-duration: 0.5s;
@@ -156,7 +156,7 @@ nav{
 		/*left: 50%;*/
 		text-align: center;
 		font-family: 'Baskerville Old Face',Times,serif;
-		font-size: large;
+		font-size: xx-large;
 		animation-name: fade_in;
 		animation-delay: 1.0s;
 		animation-duration: 1.0s;
@@ -170,7 +170,7 @@ nav{
 		/*left: 50%;*/
 		text-align: center;
 		font-family: 'Baskerville Old Face',Times,serif;
-		font-size: large;
+		font-size: xx-large;
 		animation-name: fade_in;
 		animation-delay: 1.0s;
 		animation-duration: 1.5s;
