@@ -263,7 +263,7 @@ nav{
 
 /*-------------------------------------*/
 /*-------------------------------------*/
-/*Photo page style*/
+/*Responsive style*/
 /*-------------------------------------*/
 /*-------------------------------------*/
 
@@ -286,12 +286,33 @@ nav{
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	.poetry{
+		font-family:"Baskerville Old Face",Times,serif;
+		font-size: 14pt;
+		margin-top: 0px;
+		margin-left: 15%;
+		margin-right: 2%;
+		margin-bottom: 0px;
+		text-align: left;
+		white-space: pre;	
+	}
+
+	.poem-title{
+		font-family:"Baskerville Old Face",Times,serif;
+		font-size: 18pt;
+		margin-top: 5%;
+		margin-left: 15%;
+		margin-right: 5%;
+		margin-bottom: 5%;
+		text-align: left;
+	}
 }
 
 @media only screen and (max-width: 872px){
-	body{
+	/*body{
 		background-color: black;
-	}
+	}*/
 
 	.photo_series_links{
 		position: fixed;
@@ -305,6 +326,27 @@ nav{
 	.trashworld{
 		position: relative;
 		height: 100vh;
+	}
+
+	.poetry{
+		font-family:"Baskerville Old Face",Times,serif;
+		font-size: 14pt;
+		margin-top: 0px;
+		margin-left: 5%;
+		margin-right: 2%;
+		margin-bottom: 0px;
+		text-align: left;
+		white-space: pre;	
+	}
+
+	.poem-title{
+		font-family:"Baskerville Old Face",Times,serif;
+		font-size: 18pt;
+		margin-top: 5%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 5%;
+		text-align: left;
 	}
 }
 
@@ -338,7 +380,35 @@ nav{
 	font-size: 14pt;
 }
 
+
 /*-------------------------------------*/
+/*-------------------------------------*/
+/*Poetry style*/
+/*-------------------------------------*/
+/*-------------------------------------
+
+.poetry{
+	font-family:"Baskerville Old Face",Times,serif;
+	font-size: 14pt;
+	margin-top: 0px;
+	margin-left: 5%;
+	margin-right: 2%;
+	margin-bottom: 0px;
+	text-align: left;
+	white-space: pre;	
+}
+
+.poem-title{
+	font-family:"Baskerville Old Face",Times,serif;
+	font-size: 18pt;
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	text-align: left;
+}
+
+-------------------------------------*/
 /*-------------------------------------*/
 /*Menu icon styling*/
 /*-------------------------------------*/
@@ -414,6 +484,7 @@ pushed to the right when the menu opens.*/
 #main{
 	transition: margin-left 0.5s;
 }
+
 
 /*-------------------------------------*/
 /*-------------------------------------*/
