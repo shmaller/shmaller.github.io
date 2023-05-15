@@ -152,7 +152,7 @@ nav{
 
 	.writing_text{
 		position: fixed;
-		top: 28%;
+		top: 20%;
 		/*left: 50%;*/
 		text-align: center;
 		font-family: 'Baskerville Old Face',Times,serif;
@@ -166,7 +166,7 @@ nav{
 
 	.about_text{
 		position: fixed;
-		top: 20%;
+		top: 28%;
 		/*left: 50%;*/
 		text-align: center;
 		font-family: 'Baskerville Old Face',Times,serif;
