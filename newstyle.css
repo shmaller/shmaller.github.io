@@ -1,0 +1,12 @@
+/*Nicholas Boni
+15 May 2023*/
+
+html{
+	scroll-behavior: smooth;
+}
+
+.container{
+	position: relative;
+}
+
+.index_page
