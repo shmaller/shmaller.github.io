@@ -62,6 +62,13 @@ nav{
 	to{opacity: 100%}
 }
 
+.block-photo{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	display: block;
+}
+
 /*-------------------------------------*/
 /*-------------------------------------*/
 /*Icons*/
@@ -83,8 +90,8 @@ nav{
 /*-------------------------------------*/
 
 .orange-sky{
-	width: 100%;
-	height: auto;
+	width: 100vw;
+	height: 100vh;
 }
 
 .landing-text{
@@ -101,12 +108,13 @@ nav{
 	animation-fill-mode: forwards;
 }
 
-.photos-text{
+.photos-link{
 	position: fixed;
 	top: 35%;
 	text-align: center;
 	font-family: 'Baskerville Old Face',Times,serif;
 	font-size: xx-large;
+	color: white;
 	animation-name: fade-in;
 	animation-delay: 1.0s;
 	animation-duration: 0.5s;
@@ -114,12 +122,13 @@ nav{
 	animation-fill-mode: both;
 }
 
-.writing-text{
+.writing-link{
 	position: fixed;
 	top: 50%;
 	text-align: center;
 	font-family: 'Baskerville Old Face',Times,serif;
 	font-size: xx-large;
+	color: white;
 	animation-name: fade-in;
 	animation-delay: 1.0s;
 	animation-duration: 1.0s;
@@ -127,12 +136,13 @@ nav{
 	animation-fill-mode: both;
 }
 
-.about-text{
+.about-link{
 	position: fixed;
 	top: 65%;
 	text-align: center;
 	font-family: 'Baskerville Old Face',Times,serif;
 	font-size: xx-large;
+	color: white;
 	animation-name: fade-in;
 	animation-delay: 1.0s;
 	animation-duration: 1.5s;
@@ -147,8 +157,8 @@ nav{
 /*-------------------------------------*/
 
 .trash-world{
-	width: auto;
-	height: 100%;
+	width: 100vw;
+	height: 100vh;
 }
 
 .portrait-link{
@@ -209,4 +219,18 @@ nav{
 	font-size: xx-large;
 	color: white;
 	text-shadow: 1px 1px #000000;
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*Writing page style*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.writing-links{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 15%;
+	font-family: "Baskerville Old Face",Times,serif;
+	font-size: 14pt;
 }
