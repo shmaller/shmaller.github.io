@@ -71,7 +71,7 @@ nav{
 .nav-icon{
 	position: absolute;
 	top: 35px;
-	left: 20px;
+	left: 35px;
 	width: 50px;
 	height: 50px;
 }
@@ -162,44 +162,60 @@ nav{
 .portrait-link{
 	position: absolute;
 	top: 19%;
-	padding-left: 10%;
+	left: 10%;
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: xxx-large;
+	color: white;
+	text-shadow: 1px 1px #000000;
 }
 
 .snatch-the-bag-link{
 	position: absolute;
-	top: 29%;
-	padding-left: 10%;
+	top: 31%;
+	left: 10%;
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: xxx-large;
+	color: white;
+	text-shadow: 1px 1px #000000;
 }
 
 .gridlock-link{
 	position: absolute;
-	top: 39%;
-	padding-left: 10%;
+	top: 43%;
+	left: 10%;
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: xxx-large;
+	color: white;
+	text-shadow: 1px 1px #000000;
+
 }
 
 .rebels-link{
 	position: absolute;
-	top: 49%;
-	padding-left: 10%;
+	top: 55%;
+	left: 10%;
 	font-family: "Baskerville Old Face",Times,serif;
-	font-size: xxx-large;}
+	font-size: xxx-large;
+	color: white;
+	text-shadow: 1px 1px #000000;
+}
 
 .biden-link{
 	position: absolute;
-	top: 59%;
-	padding-left: 10%;
+	top: 67%;
+	left: 10%;
 	font-family: "Baskerville Old Face",Times,serif;
-	font-size: xxx-large;}
+	font-size: xxx-large;
+	color: white;
+	text-shadow: 1px 1px #000000;
+}
 
 .asunder-link{
 	position: absolute;
-	top: 69%;
-	padding-left: 10%;
+	top: 79%;
+	left: 10%;
 	font-family: "Baskerville Old Face",Times,serif;
-	font-size: xxx-large;}
+	font-size: xxx-large;
+	color: white;
+	text-shadow: 2px 2px #000000;
+}
