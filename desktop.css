@@ -1,0 +1,269 @@
+/*Nicholas Boni
+15 May 2023*/
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*Sitewide style*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+html{
+	scroll-behavior: smooth;
+}
+
+h1{
+	margin:0px;
+	padding-left: 10%;
+	font-family:"Arial",sans-serif;
+	background-color:black;
+	color:white;
+}
+
+h2{
+	font-family:"Baskerville Old Face",Times,serif;
+	font-size: 18pt;
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 5%;
+	text-align: left;
+}
+
+p{
+	font-family:"Baskerville Old Face",Times,serif;
+	font-size: 14pt;
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 5%;
+	text-align: justify;
+}
+
+body{
+	margin:0;
+}
+
+nav{
+	font-family:"Baskerville Old Face",Times,serif;
+	font-size: 14pt;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 5%;
+}
+
+/*Animations*/
+@keyframes fade-out{
+	from{opacity: 100%}
+	to{opacity: 0%}
+}
+
+@keyframes fade-in{
+	from{opacity: 0%}
+	to{opacity: 100%}
+}
+
+.block-photo{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	display: block;
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*Icons*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.nav-icon{
+	position: absolute;
+	top: 35px;
+	left: 15px;
+	width: 50px;
+	height: 50px;
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*Index style*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.orange-sky{
+	width: 100%;
+	height: auto;
+}
+
+.landing-text{
+	position: fixed;
+	top: 35%;
+	left: 55%;
+	color: white;
+	text-align: center;
+	animation-name: fade-out;
+	animation-delay: 3s;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	font-family:'Baskerville Old Face',Times,serif; 
+	font-size: xxx-large;
+}
+
+.photos-link{
+	position: fixed;
+	top: 50%;
+	left: 10%;
+	text-align: center;
+	animation-name: fade-in;
+	animation-delay: 1.0s;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+	font-family: 'Baskerville Old Face',Times,serif;
+	font-size: xxx-large;
+	color: white;
+}
+
+.writing-link{
+	position: fixed;
+	top: 60%;
+	left: 45%;
+	text-align: center;
+	animation-name: fade-in;
+	animation-delay: 1.0s;
+	animation-duration: 1.0s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+	font-family: 'Baskerville Old Face',Times,serif;
+	font-size: xxx-large;
+	color: white;
+}
+
+.about-link{
+	position: fixed;
+	top: 70%;
+	left: 75%;
+	text-align: center;
+	animation-name: fade-in;
+	animation-delay: 1.0s;
+	animation-duration: 1.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+	font-family: 'Baskerville Old Face',Times,serif;
+	font-size: xxx-large;
+	color: white;
+}
+
+.index-link{
+	color: white;
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*Photo page style*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.trash-world{
+	width: 100%;
+	height: auto;
+}
+
+.portrait-link{
+	position: absolute;
+	top: 19%;
+	left: 10%;
+	font-family: "Baskerville Old Face",Times,serif;
+	font-size: xxx-large;
+	color: white;
+	text-shadow: 1px 1px #000000;
+}
+
+.snatch-the-bag-link{
+	position: absolute;
+	top: 31%;
+	left: 10%;
+	font-family: "Baskerville Old Face",Times,serif;
+	font-size: xxx-large;
+	color: white;
+	text-shadow: 1px 1px #000000;
+}
+
+.gridlock-link{
+	position: absolute;
+	top: 43%;
+	left: 10%;
+	font-family: "Baskerville Old Face",Times,serif;
+	font-size: xxx-large;
+	color: white;
+	text-shadow: 1px 1px #000000;
+
+}
+
+.rebels-link{
+	position: absolute;
+	top: 55%;
+	left: 10%;
+	font-family: "Baskerville Old Face",Times,serif;
+	font-size: xxx-large;
+	color: white;
+	text-shadow: 1px 1px #000000;
+}
+
+.biden-link{
+	position: absolute;
+	top: 67%;
+	left: 10%;
+	font-family: "Baskerville Old Face",Times,serif;
+	font-size: xxx-large;
+	color: white;
+	text-shadow: 1px 1px #000000;
+}
+
+.asunder-link{
+	position: absolute;
+	top: 79%;
+	left: 10%;
+	font-family: "Baskerville Old Face",Times,serif;
+	font-size: xxx-large;
+	color: white;
+	text-shadow: 2px 2px #000000;
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*Writing and Letters page style*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.writing-links{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 15%;
+	font-family: "Baskerville Old Face",Times,serif;
+	font-size: 14pt;
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*Poetry style*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.poetry{
+	font-family:"Baskerville Old Face",Times,serif;
+	font-size: 14pt;
+	margin-left: 15%;
+	text-align: left;
+	white-space: pre;	
+}
+
+.poem-title{
+	font-family:"Baskerville Old Face",Times,serif;
+	font-size: 18pt;
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	text-align: left;
+}
