@@ -97,6 +97,7 @@ nav{
 .landing-text{
 	position: fixed;
 	top: 5%;
+	left: 0;
 	text-align: center;
 	font-family:'Baskerville Old Face',Times,serif; 
 	font-size: xx-large;
@@ -111,6 +112,7 @@ nav{
 .photos-link{
 	position: fixed;
 	top: 35%;
+	left: 0;
 	text-align: center;
 	font-family: 'Baskerville Old Face',Times,serif;
 	font-size: xx-large;
@@ -125,6 +127,7 @@ nav{
 .writing-link{
 	position: fixed;
 	top: 50%;
+	left: 0;
 	text-align: center;
 	font-family: 'Baskerville Old Face',Times,serif;
 	font-size: xx-large;
@@ -139,6 +142,7 @@ nav{
 .about-link{
 	position: fixed;
 	top: 65%;
+	left: 0;
 	text-align: center;
 	font-family: 'Baskerville Old Face',Times,serif;
 	font-size: xx-large;
