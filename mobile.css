@@ -168,7 +168,7 @@ nav{
 .portrait-link{
 	position: absolute;
 	top: 20%;
-	left: 10%;
+	left: 5%;
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: xx-large;
 	color: white;
@@ -178,7 +178,7 @@ nav{
 .snatch-the-bag-link{
 	position: absolute;
 	top: 40%;
-	left: 10%;
+	left: 5%;
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: xx-large;
 	color: white;
@@ -188,7 +188,7 @@ nav{
 .gridlock-link{
 	position: absolute;
 	top: 60%;
-	left: 10%;
+	left: 5%;
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: xx-large;
 	color: white;
