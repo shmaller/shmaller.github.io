@@ -39,6 +39,16 @@ p{
 	text-align: justify;
 }
 
+blockquote{
+	font-family:"Baskerville Old Face",Times,serif;
+	font-size: 14pt;
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 15%;
+	margin-bottom: 5%;
+	text-align: justify;
+}
+
 body{
 	margin:0;
 }
