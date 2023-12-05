@@ -39,6 +39,16 @@ p{
 	text-align: justify;
 }
 
+blockquote{
+	font-family:"Baskerville Old Face",Times,serif;
+	font-size: 14pt;
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 15%;
+	margin-bottom: 5%;
+	text-align: justify;
+}
+
 body{
 	margin:0;
 }
@@ -183,7 +193,7 @@ nav{
 .portrait-link{
 	position: absolute;
 	top: 20%;
-	left: 10%;
+	left: 5%;
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: xx-large;
 	color: white;
@@ -193,7 +203,7 @@ nav{
 .snatch-the-bag-link{
 	position: absolute;
 	top: 40%;
-	left: 10%;
+	left: 5%;
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: xx-large;
 	color: white;
@@ -203,7 +213,7 @@ nav{
 .gridlock-link{
 	position: absolute;
 	top: 60%;
-	left: 10%;
+	left: 5%;
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: xx-large;
 	color: white;
