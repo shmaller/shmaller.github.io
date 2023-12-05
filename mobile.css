@@ -121,7 +121,7 @@ nav{
 
 .photos-link{
 	position: fixed;
-	top: 35%;
+	top: 25%;
 	left: 0;
 	text-align: center;
 	font-family: 'Baskerville Old Face',Times,serif;
@@ -136,7 +136,22 @@ nav{
 
 .writing-link{
 	position: fixed;
-	top: 50%;
+	top: 40%;
+	left: 0;
+	text-align: center;
+	font-family: 'Baskerville Old Face',Times,serif;
+	font-size: xx-large;
+	color: white;
+	animation-name: fade-in;
+	animation-delay: 1.0s;
+	animation-duration: 1.0s;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+}
+
+.music-link{
+	position: fixed;
+	top: 55%;
 	left: 0;
 	text-align: center;
 	font-family: 'Baskerville Old Face',Times,serif;
@@ -151,7 +166,7 @@ nav{
 
 .about-link{
 	position: fixed;
-	top: 65%;
+	top: 70%;
 	left: 0;
 	text-align: center;
 	font-family: 'Baskerville Old Face',Times,serif;
