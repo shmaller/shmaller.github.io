@@ -296,3 +296,27 @@ nav{
 	margin-bottom: 5%;
 	text-align: left;
 }
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*About style*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.about-header{
+	position: absolute; 
+	top: 20%;
+}
+
+.about-p{
+	position: absolute; 
+	top: 20%; 
+	color: white; 
+	text-shadow: 0px 0px 5px black;
+}
+
+.about-nav{
+	position: absolute; 
+	top: 63%;
+	text-shadow: 0px 0px 5px black;
+}
