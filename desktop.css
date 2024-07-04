@@ -11,6 +11,10 @@ html{
 	scroll-behavior: smooth;
 }
 
+a{
+	color: #5c72ff;
+}
+
 h1{
 	margin:0px;
 	padding-left: 10%;
