@@ -34,9 +34,8 @@ p{
 	font-size: 14pt;
 	margin-top: 5%;
 	margin-left: 15%;
-	margin-right: 15%;
+	margin-right: 5%;
 	margin-bottom: 5%;
-	text-align: justify;
 }
 
 blockquote{
@@ -46,7 +45,6 @@ blockquote{
 	margin-left: 20%;
 	margin-right: 15%;
 	margin-bottom: 5%;
-	text-align: justify;
 }
 
 body{
