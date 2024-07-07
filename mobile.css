@@ -59,17 +59,6 @@ nav{
 	margin-bottom: 5%;
 }
 
-/*Animations*/
-@keyframes fade-out{
-	from{opacity: 100%}
-	to{opacity: 0%}
-}
-
-@keyframes fade-in{
-	from{opacity: 0%}
-	to{opacity: 100%}
-}
-
 .block-photo{
 	width: 100%;
 	height: auto;
@@ -84,7 +73,7 @@ nav{
 /*-------------------------------------*/
 
 .nav-icon{
-	position: absolute;
+	position: fixed;
 	top: 35px;
 	left: 15px;
 	width: 50px;
@@ -97,84 +86,64 @@ nav{
 /*-------------------------------------*/
 /*-------------------------------------*/
 
-.orange-sky{
-	width: 100vw;
-	height: 100vh;
+/*Animations*/
+@keyframes fade-out{
+	from{opacity: 100%}
+	to{opacity: 0%}
+}
+
+@keyframes fade-in{
+	from{opacity: 0%}
+	to{opacity: 100%}
+}
+
+.landing-img{
+	content: url(https://nicholasboni.com/images/index/skyrock.jpg);
+	max-height: 100vh;
 }
 
 .landing-text{
 	position: fixed;
-	top: 5%;
 	left: 0;
 	text-align: center;
 	font-family:'Baskerville Old Face',Times,serif; 
 	font-size: xx-large;
-	color: white;
+	color: black;
+	animation-iteration-count: 1;
+}
+
+.site-name{
+	top: 5%;
 	animation-name: fade-out;
 	animation-delay: 3s;
 	animation-duration: 3s;
-	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 }
 
-.photos-link{
-	position: fixed;
+.landing-link{
+	animation-name: fade-in;
+	animation-delay: 1.0s;
+	animation-fill-mode: both;
+}
+
+#photos-link{
 	top: 25%;
-	left: 0;
-	text-align: center;
-	font-family: 'Baskerville Old Face',Times,serif;
-	font-size: xx-large;
-	color: white;
-	animation-name: fade-in;
-	animation-delay: 1.0s;
 	animation-duration: 0.5s;
-	animation-iteration-count: 1;
-	animation-fill-mode: both;
 }
 
-.writing-link{
-	position: fixed;
+#writing-link{
 	top: 40%;
-	left: 0;
-	text-align: center;
-	font-family: 'Baskerville Old Face',Times,serif;
-	font-size: xx-large;
-	color: white;
-	animation-name: fade-in;
-	animation-delay: 1.0s;
-	animation-duration: 1.0s;
-	animation-iteration-count: 1;
-	animation-fill-mode: both;
+	animation-duration: 0.8s;
 }
 
-.music-link{
-	position: fixed;
+#music-link{
 	top: 55%;
-	left: 0;
-	text-align: center;
-	font-family: 'Baskerville Old Face',Times,serif;
-	font-size: xx-large;
-	color: white;
-	animation-name: fade-in;
-	animation-delay: 1.0s;
-	animation-duration: 1.0s;
-	animation-iteration-count: 1;
-	animation-fill-mode: both;
+	animation-duration: 1.2s;
 }
 
-.about-link{
-	position: fixed;
+#about-link{
 	top: 70%;
-	left: 0;
-	text-align: center;
-	font-family: 'Baskerville Old Face',Times,serif;
-	font-size: xx-large;
-	color: white;
-	animation-name: fade-in;
-	animation-delay: 1.0s;
 	animation-duration: 1.5s;
-	animation-iteration-count: 1;
-	animation-fill-mode: both;
 }
 
 /*-------------------------------------*/
@@ -184,68 +153,47 @@ nav{
 /*-------------------------------------*/
 
 .trash-world{
-	width: 100vw;
-	height: 100vh;
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
-.portrait-link{
-	position: absolute;
+.photo-page-link{
+	position: fixed;
+	font-family: "Baskerville Old Face",Times,serif;
+	font-size: xx-large;
+	color: white;
+	text-shadow: 0px 0px 3px #000000;
+}
+
+#portrait-link{
 	top: 20%;
 	left: 5%;
-	font-family: "Baskerville Old Face",Times,serif;
-	font-size: xx-large;
-	color: white;
-	text-shadow: 1px 1px #000000;
 }
 
-.snatch-the-bag-link{
-	position: absolute;
+#snatch-the-bag-link{
 	top: 40%;
 	left: 5%;
-	font-family: "Baskerville Old Face",Times,serif;
-	font-size: xx-large;
-	color: white;
-	text-shadow: 1px 1px #000000;
 }
 
-.gridlock-link{
-	position: absolute;
+#gridlock-link{
 	top: 60%;
 	left: 5%;
-	font-family: "Baskerville Old Face",Times,serif;
-	font-size: xx-large;
-	color: white;
-	text-shadow: 1px 1px #000000;
 }
 
-.rebels-link{
-	position: absolute;
+#rebels-link{
 	top: 20%;
 	left: 65%;
-	font-family: "Baskerville Old Face",Times,serif;
-	font-size: xx-large;
-	color: white;
-	text-shadow: 1px 1px #000000;
 }
 
-.biden-link{
-	position: absolute;
+#biden-link{
 	top: 40%;
 	left: 65%;
-	font-family: "Baskerville Old Face",Times,serif;
-	font-size: xx-large;
-	color: white;
-	text-shadow: 1px 1px #000000;
 }
 
-.asunder-link{
-	position: absolute;
+#asunder-link{
 	top: 60%;
 	left: 65%;
-	font-family: "Baskerville Old Face",Times,serif;
-	font-size: xx-large;
-	color: white;
-	text-shadow: 1px 1px #000000;
 }
 
 /*-------------------------------------*/
