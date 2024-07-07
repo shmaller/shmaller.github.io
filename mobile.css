@@ -73,7 +73,7 @@ nav{
 /*-------------------------------------*/
 
 .nav-icon{
-	position: fixed;
+	position: absolute;
 	top: 35px;
 	left: 15px;
 	width: 50px;
