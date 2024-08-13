@@ -230,6 +230,15 @@ nav{
 	font-size: 14pt;
 }
 
+.check-my-phone-meme{
+	display: block;
+	max-width: 40%;
+	max-height: auto;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /*-------------------------------------*/
 /*-------------------------------------*/
 /*Poetry style*/
