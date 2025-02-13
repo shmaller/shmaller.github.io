@@ -97,27 +97,42 @@ nav{
 	to{opacity: 100%}
 }
 
+@keyframes dance {
+	0% {transform: translate(10px, 10px);}
+	17% {transform: translate(-10px, -10px);}
+	33% {transform: translate(10px, 10px);}
+	50% {transform: translate(-10px, -10px);}
+	67% {transform: translate(10px, 10px);}
+	83% {transform: translate(-10px, -10px);}
+	100% {transform: translate(0px, 0px);}
+}
+
+@keyframes rainbow {
+	0% {color: aqua;}
+	20% {color: darkorchid;}
+	40% {color:antiquewhite}
+	60% {color:chocolate}
+	80% {color:aquamarine }
+	100% {color:aqua}
+}
+
+.index-body{
+    background-image: url(https://nicholasboni.com/images/index/sand.jpg);
+	background-repeat: repeat;
+}
+
 .landing-img{
 	content: url(https://nicholasboni.com/images/index/skyrock.jpg);
 	max-height: 100vh;
 }
 
 .landing-text{
-	position: fixed;
+	position: absolute;
 	left: 0;
 	text-align: center;
 	font-family:'Baskerville Old Face',Times,serif; 
 	font-size: xx-large;
-	color: black;
-	animation-iteration-count: 1;
-}
-
-.site-name{
-	top: 5%;
-	animation-name: fade-out;
-	animation-delay: 3s;
-	animation-duration: 3s;
-	animation-fill-mode: forwards;
+	color: aqua;
 }
 
 .landing-link{
@@ -126,23 +141,66 @@ nav{
 	animation-fill-mode: both;
 }
 
+.drop-shadow{
+	text-shadow: 2px 2px 3px black,
+	-2px -2px 3px black,
+	2px -2px 3px black,
+	-2px 2px 3px black;
+}
+
+.bandcamp-player{
+	border: 0;     
+	width: 350px; 
+	height: 442px;
+	position: absolute;
+	left: 10px;
+	top: 600px;
+}
+
+#site-name{
+	color: black;	
+	text-shadow: 2px 2px 3px white,
+	-2px -2px 3px white,
+	2px -2px 3px white,
+	-2px 2px 3px white;
+	top: 10px;
+	left: 10px;
+	animation-name: dance;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+	animation-timing-function: step-end;
+}
+
+#latest-letter-link{
+	top: 200px;
+	animation-name: rainbow;
+	animation-delay: 3s;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
 #photos-link{
-	top: 25%;
+	top: 400px;
 	animation-duration: 0.5s;
 }
 
 #writing-link{
-	top: 40%;
+	top: 300px;
 	animation-duration: 0.8s;
 }
 
 #music-link{
-	top: 55%;
-	animation-duration: 1.2s;
+	top: 100px;
+	animation-name: rainbow;
+	animation-duration: 3s;
+	animation-iteration-count: 1s;
+	animation-fill-mode: forwards;
+	animation-direction: reverse;
 }
 
 #about-link{
-	top: 70%;
+	top: 500px;
 	animation-duration: 1.5s;
 }
 
@@ -162,7 +220,6 @@ nav{
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: xx-large;
 	color: white;
-	text-shadow: 0px 0px 3px #000000;
 }
 
 #portrait-link{
