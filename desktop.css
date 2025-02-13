@@ -194,7 +194,7 @@ nav{
 #latest-letter-link{
 	animation-name: rainbow;
 	animation-fill-mode: forwards;
-	animation-delay: 2s;
+	animation-delay: 3s;
 	animation-iteration-count: 3;
 	animation-duration: 3s;
 	top: 600px;
@@ -214,9 +214,12 @@ nav{
 }
 
 #music-link{
+	animation-name: rainbow;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-duration: 3s;
 	left: 10px;
 	top: 10px;
-	animation-duration: 1.2s;
 }
 
 #about-link{
