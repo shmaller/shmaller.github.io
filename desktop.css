@@ -340,9 +340,17 @@ nav{
 	position: absolute; 
 	top: 20%; 
 	color: white;
+	text-shadow: 2px 2px 3px black,
+	-2px -2px 3px black,
+	2px -2px 3px black,
+	-2px 2px 3px black;
 }
 
 .about-nav{
 	position: absolute; 
 	top: 63%;
+	text-shadow: 2px 2px 3px black,
+	-2px -2px 3px black,
+	2px -2px 3px black,
+	-2px 2px 3px black;
 }
