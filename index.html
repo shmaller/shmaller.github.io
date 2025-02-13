@@ -16,91 +16,42 @@
         <link rel="stylesheet" media="screen and (max-width: 758px)" href="mobile.css" />
 
     </head>
-    <body style="
-    background-image: url(https://nicholasboni.com/images/index/sand.jpg);
-	background-repeat: repeat;
-    ">
+    <body class="index-body">  
 
-    <div style="overflow: hidden;">
-        <div class='landing-text' style="
-        color: black;
-        text-shadow: 2px 2px 3px white,
-                    -2px -2px 3px white,
-                    2px -2px 3px white,
-                    -2px 2px 3px white;
-        top: 20%;
-        animation-name: title-slide; 
-        animation-iteration-count: 1;
-        animation-duration: 2s;
-        animation-fill-mode: forwards;
-        ">
-            nicholasboni.com
+        <div style="overflow: hidden;">
+            <div class='landing-text' id="site-name">
+                nicholasboni.com
+            </div>
         </div>
-    </div>
 
-    <a href="letters/letter02122025.html" class="drop-shadow" style="
-    color: aqua;
-    text-shadow: 2px 2px 3px black,
-                -2px -2px 3px black,
-                2px -2px 3px black,
-                -2px 2px 3px black;
-    font-size: xxx-large;
-    position: fixed;
-    left: 5%;
-    top: 70%
-    ">latest letter!</a>
+        <a href="https://nicholasboni.bandcamp.com/track/gone-single" 
+        target="_blank" 
+        class="landing-text drop-shadow"
+        id="music-link">
+            stream my latest single HERE!
+        </a>   
 
-    <a href="https://nicholasboni.bandcamp.com/track/gone-single" target="_blank" style="
-    color: aqua;
-    text-shadow: 2px 2px 3px black,
-                -2px -2px 3px black,
-                2px -2px 3px black,
-                -2px 2px 3px black;
-    font-size: xxx-large;
-    position: fixed;
-    left: 5%;
-    ">
-    stream my latest single HERE!</a>
+        <a href="letters/letter02122025.html" 
+        class="landing-text drop-shadow" 
+        id="latest-letter-link">
+            latest letter!
+        </a>
 
         <iframe class="bandcamp-player">
-        <a href="https://nicholasboni.bandcamp.com/track/gone-single">Gone (single) by Nicholas Boni</a>
-    </iframe>
+            <a href="https://nicholasboni.bandcamp.com/track/gone-single">Gone (single) by Nicholas Boni</a>
+        </iframe>
 
-    <a href=writing.html style="
-    color: aqua;
-    font-size: xxx-large;
-    text-shadow: 2px 2px 3px black,
-                -2px -2px 3px black,
-                2px -2px 3px black,
-                -2px 2px 3px black;
-    position: fixed;
-    left: 45%;
-    top: 50%;">
-    my writing</a>
+        <a href=writing.html class="landing-text drop-shadow" id="writing-link">
+            my writing
+        </a>
 
-    <a href="photos.html" style=" 
-    color: aqua;
-    font-size: xxx-large;
-    text-shadow: 2px 2px 3px black,
-                -2px -2px 3px black,
-                2px -2px 3px black,
-                -2px 2px 3px black;
-    position: fixed;
-    right: 30%;
-    top: 60%;">
-    my photos</a>
+        <a href="photos.html" class="landing-text drop-shadow" id="photos-link">
+            my photos
+        </a>
 
-    <a href="about.html" style="
-    color: aqua;
-    font-size: xxx-large;
-    text-shadow: 2px 2px 3px black,
-                -2px -2px 3px black,
-                2px -2px 3px black,
-                -2px 2px 3px black;
-    position: fixed;
-    right: 20%;
-    bottom: 10%;">
-    about me</a>
+        <a href="about.html" class="landing-text drop-shadow" id="about-link">
+            about me
+        </a>
 
     </body>
 </html>
