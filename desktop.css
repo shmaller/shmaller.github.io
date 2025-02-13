@@ -103,6 +103,16 @@ nav{
 	to{opacity: 100%}
 }
 
+@keyframes title-slide{
+	from{left: -30%}
+	to{left: 50%}
+}
+
+.body-style{
+	background-image: url(file:///C:/Users/nb/Documents/GitHub/shmaller.github.io/images/index/sand.jpg);
+	background-repeat: repeat;
+}
+
 .landing-img{
 	display: block;
 	content: url(https://nicholasboni.com/images/index/orangesky.jpg);
@@ -113,6 +123,13 @@ nav{
 .orange-sky{
 	width: 100%;
 	height: auto;
+}
+
+.drop-shadow{
+	text-shadow: 2px 2px 3px black,
+	-2px -2px 3px black,
+	2px -2px 3px black,
+	-2px 2px 3px black;
 }
 
 .landing-text{
