@@ -156,6 +156,15 @@ nav{
 	animation-fill-mode: both;
 }
 
+.bandcamp-player{
+	content: url("https://bandcamp.com/EmbeddedPlayer/track=2442754327/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/");
+	border: 0;     
+	width: 350px; 
+	height: 442px;
+	position: fixed;
+	left: 10px;
+	top: 100px;
+}
 #photos-link{
 	top: 40%;
 	left: 10%;
