@@ -104,32 +104,12 @@ nav{
 }
 
 @keyframes title-slide{
-	from{left: -400px}
-	to{left: 500px}
+	from{left: -30%}
+	to{left: 50%}
 }
 
-@keyframes dance {
-	0% {transform: translate(10px, 10px);}
-	17% {transform: translate(-10px, -10px);}
-	33% {transform: translate(10px, 10px);}
-	50% {transform: translate(-10px, -10px);}
-	67% {transform: translate(10px, 10px);}
-	83% {transform: translate(-10px, -10px);}
-	100% {transform: translate(0px, 0px);}
-}
-
-@keyframes rainbow {
-	0% {color: aqua;}
-	20% {color: darkorchid;}
-	40% {color:antiquewhite}
-	60% {color:chocolate}
-	80% {color:aquamarine }
-	100% {color:aqua}
-
-}
-
-.index-body{
-    background-image: url(https://nicholasboni.com/images/index/sand.jpg);
+.body-style{
+	background-image: url(https://nicholasboni.com/images/index/sand.jpg);
 	background-repeat: repeat;
 }
 
@@ -153,12 +133,21 @@ nav{
 }
 
 .landing-text{
-	color:aqua;
-	position: absolute;
+	position: fixed;
+	color: white;
 	text-align: center;
 	animation-iteration-count: 1;
 	font-family:'Baskerville Old Face',Times,serif; 
 	font-size: xxx-large;
+}
+
+.site-name{
+	top: 35%;
+	left: 55%;
+	animation-name: fade-out;
+	animation-delay: 3s;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
 }
 
 .landing-link{
@@ -167,62 +156,27 @@ nav{
 	animation-fill-mode: both;
 }
 
-.bandcamp-player{
-	content: url("https://bandcamp.com/EmbeddedPlayer/track=2442754327/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/");
-	border: 0;     
-	width: 350px; 
-	height: 442px;
-	position: fixed;
-	left: 10px;
-	top: 100px;
-}
-
-#site-name{
-	color: black;
-	text-shadow: 2px 2px 3px white,
-				-2px -2px 3px white,
-				2px -2px 3px white,
-				-2px 2px 3px white;
-	top: 200px;
-	left: 600px;
-	animation-name: dance; 
-	animation-timing-function: step-end;
-	animation-iteration-count: 1;
-	animation-duration: 4s;
-	animation-fill-mode: both;
-}
-
-#latest-letter-link{
-	animation-name: rainbow;
-	animation-fill-mode: forwards;
-	animation-delay: 2s;
-	animation-iteration-count: 3;
-	animation-duration: 3s;
-	top: 600px;
-	left: 10px
-}
-
-#writing-link{
-	top: 300px;
-	left: 500px;
-	animation-duration: 0.8s;
-}
-
 #photos-link{
-	top: 400px;
-	left: 550px;
+	top: 40%;
+	left: 10%;
 	animation-duration: 0.5s;
 }
 
+#writing-link{
+	top: 60%;
+	left: 35%;
+	animation-duration: 0.8s;
+}
+
 #music-link{
-	left: 10px;
-	top: 10px;
+	top: 51%;
+	left: 60%;
 	animation-duration: 1.2s;
 }
 
 #about-link{
-	top: 500px;
-	left: 600px;
+	top: 70%;
+	left: 85%;
 	animation-duration: 1.5s;
 }
 
@@ -246,6 +200,7 @@ nav{
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: xxx-large;
 	color: white;
+	text-shadow: 0px 0px 3px #000000;
 }
 
 #portrait-link{
@@ -339,10 +294,12 @@ nav{
 .about-p{
 	position: absolute; 
 	top: 20%; 
-	color: white;
+	color: white; 
+	text-shadow: 0px 0px 5px black;
 }
 
 .about-nav{
 	position: absolute; 
 	top: 63%;
+	text-shadow: 0px 0px 5px black;
 }
