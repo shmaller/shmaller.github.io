@@ -171,9 +171,9 @@ nav{
 	border: 0;     
 	width: 350px; 
 	height: 442px;
-	position: fixed;
+	position: absolute;
 	left: 10px;
-	top: 100px;
+	top: 60px;
 }
 
 #site-name{
@@ -197,7 +197,7 @@ nav{
 	animation-delay: 3s;
 	animation-iteration-count: 3;
 	animation-duration: 3s;
-	top: 600px;
+	top: 500px;
 	left: 10px
 }
 
@@ -219,7 +219,7 @@ nav{
 	animation-iteration-count: 1;
 	animation-duration: 3s;
 	left: 10px;
-	top: 10px;
+	top: 0px;
 }
 
 #about-link{
