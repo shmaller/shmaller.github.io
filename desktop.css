@@ -177,6 +177,7 @@ nav{
 }
 
 #site-name{
+	font-weight: normal;
 	color: black;
 	text-shadow: 2px 2px 3px white,
 				-2px -2px 3px white,
@@ -184,6 +185,7 @@ nav{
 				-2px 2px 3px white;
 	top: 200px;
 	left: 600px;
+	margin: 0;
 	animation-name: dance; 
 	animation-timing-function: step-end;
 	animation-iteration-count: 1;
