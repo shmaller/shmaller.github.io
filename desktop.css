@@ -186,15 +186,6 @@ nav{
 	animation-fill-mode: both;
 }
 
-.bandcamp-player{
-	border: 0;     
-	width: 350px; 
-	height: 442px;
-	position: absolute;
-	left: 10px;
-	top: 130px;
-}
-
 #site-name{
 	font-weight: normal;
 	color: black;
@@ -358,6 +349,31 @@ nav{
 	margin-right: 5%;
 	margin-bottom: 5%;
 	text-align: left;
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*Music style*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.bandcamp-player{
+	border: 0;     
+	width: 350px; 
+	height: 442px;
+	position: absolute;
+	left: 10px;
+	top: 130px;
+}
+
+.music-links{
+	text-align: right;
+	list-style: none;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 15%;
+	font-family: "Baskerville Old Face",Times,serif;
+	font-size: 14pt;
 }
 
 /*-------------------------------------*/
