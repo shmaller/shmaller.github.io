@@ -15,15 +15,12 @@ a{
 	color: #5c72ff;
 }
 
-h1{
-	margin:0px;
-	padding-left: 10%;
-	font-family:"Arial",sans-serif;
-	background-color:black;
-	color:white;
-}
+/* h1{
+	margin-top: 0;
+	margin-bottom: 0;
+} */
 
-h2{
+/* h2{
 	font-family:"Baskerville Old Face",Times,serif;
 	font-size: 18pt;
 	margin-top: 5%;
@@ -31,7 +28,7 @@ h2{
 	margin-right: 15%;
 	margin-bottom: 5%;
 	text-align: left;
-}
+} */
 
 p{
 	font-family:"Baskerville Old Face",Times,serif;
@@ -65,6 +62,24 @@ nav{
 	margin-bottom: 5%;
 }
 
+.bw-header{
+	margin:0px;
+	padding-left: 10%;
+	font-family:"Arial",sans-serif;
+	font-size: xx-large;
+	background-color:black;
+	color:white;
+}
+
+.header-no-bg{
+	margin: 0px;
+	padding-top: 35px;
+	padding-left: 10%;
+	font-family: Arial, sans-serif;
+	font-size: xxx-large;
+	color: black;
+}
+
 .block-photo{
 	width: 100%;
 	height: auto;
@@ -88,11 +103,10 @@ nav{
 
 /*-------------------------------------*/
 /*-------------------------------------*/
-/*Index style*/
+/*Animations*/
 /*-------------------------------------*/
 /*-------------------------------------*/
 
-/*Animations*/
 @keyframes fade-out{
 	from{opacity: 100%}
 	to{opacity: 0%}
@@ -125,8 +139,13 @@ nav{
 	60% {color:chocolate}
 	80% {color:aquamarine }
 	100% {color:aqua}
-
 }
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*Index style*/
+/*-------------------------------------*/
+/*-------------------------------------*/
 
 .index-body{
     background-image: url(https://nicholasboni.com/images/index/sand.jpg);
@@ -177,18 +196,48 @@ nav{
 }
 
 #site-name{
+	font-weight: normal;
 	color: black;
 	text-shadow: 2px 2px 3px white,
 				-2px -2px 3px white,
 				2px -2px 3px white,
 				-2px 2px 3px white;
-	top: 200px;
+	top: 150px;
 	left: 600px;
+	margin: 0;
 	animation-name: dance; 
 	animation-timing-function: step-end;
 	animation-iteration-count: 1;
 	animation-duration: 4s;
 	animation-fill-mode: both;
+}
+
+#writing-link{
+	top: 100px;
+	left: 10px;
+	animation-name: fade-in;
+	animation-duration: 0.5s;
+}
+
+#photos-link{
+	top: 200px;
+	left: 110px;
+	animation-name: fade-in;
+	animation-duration: 1s;
+}
+
+#music-link{
+	top: 300px;
+	left: 210px;
+	animation-name: fade-in;
+	animation-duration: 1.5s;
+}
+
+#about-link{
+	top: 400px;
+	left: 310px;
+	animation-name: fade-in;
+	animation-duration: 2s;
 }
 
 #latest-letter-link{
@@ -197,35 +246,8 @@ nav{
 	animation-delay: 3s;
 	animation-iteration-count: 3;
 	animation-duration: 3s;
-	top: 500px;
-	left: 10px
-}
-
-#writing-link{
-	top: 300px;
-	left: 500px;
-	animation-duration: 0.8s;
-}
-
-#photos-link{
 	top: 400px;
-	left: 550px;
-	animation-duration: 0.5s;
-}
-
-#music-link{
-	animation-name: rainbow;
-	animation-fill-mode: forwards;
-	animation-iteration-count: 1;
-	animation-duration: 3s;
-	left: 10px;
-	top: 0px;
-}
-
-#about-link{
-	top: 500px;
-	left: 600px;
-	animation-duration: 1.5s;
+	left: 600px
 }
 
 .index-link{
@@ -286,6 +308,13 @@ nav{
 /*-------------------------------------*/
 /*-------------------------------------*/
 
+.writing-h1{
+	padding-top: 35px;
+	padding-left: 10%;
+	font-family: Arial, sans-serif;
+	font-size: xxx-large;
+}
+
 .writing-body{
 	background-image: url(https://nicholasboni.com/images/writing/paper.jpg);
 }
@@ -340,6 +369,7 @@ nav{
 .about-header{
 	position: absolute; 
 	top: 20%;
+	font-size: xxx-large;
 }
 
 .about-p{
