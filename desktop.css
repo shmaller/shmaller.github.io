@@ -357,21 +357,25 @@ nav{
 /*-------------------------------------*/
 /*-------------------------------------*/
 
-.bandcamp-player{
-	border: 0;     
+.embedded-player{
+	position: relative; 
+	border: 0; 
 	width: 350px; 
-	height: 442px;
-	position: absolute;
-	left: 10px;
-	top: 130px;
+	height: 470px; 
+}
+
+#bandcamp-player{
+	top: 0px;
+}
+
+#spotify-player{
+	top: 0px;
 }
 
 .music-links{
-	text-align: right;
-	list-style: none;
 	margin-top: 1%;
 	margin-bottom: 1%;
-	margin-right: 15%;
+	margin-left: 15%;
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: 14pt;
 }
