@@ -32,19 +32,19 @@ html{
 p{
 	font-family:"Baskerville Old Face",Times,serif;
 	font-size: 14pt;
-	margin-top: 5%;
+	margin-top: 1em;
 	margin-left: 15%;
 	margin-right: 5%;
-	margin-bottom: 5%;
+	margin-bottom: 1em;
 }
 
 blockquote{
 	font-family:"Baskerville Old Face",Times,serif;
 	font-size: 14pt;
-	margin-top: 5%;
+	margin-top: 1em;
 	margin-left: 20%;
 	margin-right: 15%;
-	margin-bottom: 5%;
+	margin-bottom: 1em;
 }
 
 body{
@@ -56,7 +56,16 @@ nav{
 	font-size: 14pt;
 	margin-left: 15%;
 	margin-right: 15%;
-	margin-bottom: 5%;
+	margin-bottom: 5%
+}
+
+footer{
+	font-family: "Baskerville Old Face",Times,serif;
+	font-size: 14pt;
+	margin-top: 1em;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 1em;
 }
 
 .bw-header{
