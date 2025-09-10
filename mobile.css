@@ -131,7 +131,6 @@ footer{
 	40% {color:antiquewhite}
 	60% {color:chocolate}
 	80% {color:aquamarine }
-	100% {color:aqua}
 }
 
 .index-body{
@@ -151,6 +150,14 @@ footer{
 	font-family:'Baskerville Old Face',Times,serif; 
 	font-size: xx-large;
 	color: aqua;
+}
+
+.landing-text:hover{
+	color: yellow;
+}
+
+.landing-text:active{
+	color: black;
 }
 
 .landing-link{
@@ -226,10 +233,18 @@ footer{
 }
 
 .photo-page-link{
-	position: fixed;
+	position: absolute;
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: xx-large;
 	color: white;
+}
+
+.photo-page-link:hover{
+	color: yellow;
+}
+
+.photo-page-link:active{
+	color: black;
 }
 
 #portrait-link{

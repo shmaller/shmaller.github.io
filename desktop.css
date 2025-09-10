@@ -147,7 +147,6 @@ footer{
 	40% {color:antiquewhite}
 	60% {color:chocolate}
 	80% {color:aquamarine }
-	100% {color:aqua}
 }
 
 /*-------------------------------------*/
@@ -187,6 +186,14 @@ footer{
 	animation-iteration-count: 1;
 	font-family:'Baskerville Old Face',Times,serif; 
 	font-size: xxx-large;
+}
+
+.landing-text:hover{
+	color: yellow;
+}
+
+.landing-text:active{
+	color: black;
 }
 
 .landing-link{
@@ -270,6 +277,14 @@ footer{
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: xxx-large;
 	color: white;
+}
+
+.photo-page-link:hover{
+	color: yellow;
+}
+
+.photo-page-link:active{
+	color: black;
 }
 
 #portrait-link{
