@@ -233,7 +233,7 @@ footer{
 }
 
 .photo-page-link{
-	position: fixed;
+	position: absolute;
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: xx-large;
 	color: white;
