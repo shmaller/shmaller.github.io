@@ -414,6 +414,31 @@ footer{
 	top: 0px;
 }
 
+.music-toc{
+	width: 500px; 
+	border: 1px solid black;
+}
+
+.lfla-player-notes{
+	position: relative; height: 500px;
+}
+
+.lfla-blurb{
+	position: absolute; text-align: justify; margin: 0; top: 0; margin-left: 500px;
+}
+
+.hum-blurb{
+	position: absolute; margin: 0; top: 0; margin-left: 500px; background-color: aliceblue;
+}
+
+.work-blurb{
+	position: absolute; margin: 0; top: 200px; margin-left: 500px; background-color: burlywood;
+}
+
+.people-house-blurb{
+	position: absolute; margin: 0; top: 400px; margin-left: 500px; background-color: hotpink;
+}
+
 /* .music-links{
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: 14pt;
