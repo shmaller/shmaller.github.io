@@ -51,6 +51,19 @@ body{
 	margin:0;
 }
 
+ul{
+	font-family: "Baskerville Old Face",Times,serif;
+	font-size: 14pt;
+}
+
+.indent{
+	margin-left: 15%;
+}
+
+.no-indent{
+	margin-left: 0;
+}
+
 nav{
 	font-family:"Baskerville Old Face",Times,serif;
 	font-size: 14pt;
