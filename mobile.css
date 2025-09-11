@@ -51,6 +51,19 @@ body{
 	margin:0;
 }
 
+ul{
+	font-family: "Baskerville Old Face",Times,serif;
+	font-size: 14pt;
+}
+
+.indent{
+	margin-left: 15%;
+}
+
+.no-indent{
+	margin-left: 0;
+}
+
 nav{
 	font-family:"Baskerville Old Face",Times,serif;
 	font-size: 14pt;
@@ -299,13 +312,13 @@ footer{
 	background-image: url(https://nicholasboni.com/images/writing/paper.jpg);
 }
 
-.writing-links{
+/* .writing-links{
 	margin-top: 1%;
 	margin-bottom: 1%;
 	margin-left: 15%;
 	font-family: "Baskerville Old Face",Times,serif;
 	font-size: 14pt;
-}
+} */
 
 .check-my-phone-meme{
 	display: block;
@@ -349,8 +362,8 @@ footer{
 .embedded-player{
 	position: relative; 
 	border: 0; 
-	width: 350px; 
-	height: 470px; 
+	width: 100%; 
+	height: 550px;
 }
 
 #bandcamp-player{
@@ -359,4 +372,20 @@ footer{
 
 #spotify-player{
 	top: 0px;
+}
+
+.studio-img{
+	width: 100%;
+}
+
+.hum-blurb{
+	background-color: aliceblue;
+}
+
+.work-blurb{
+	background-color: burlywood;
+}
+
+.people-house-blurb{
+	background-color: hotpink;
 }
