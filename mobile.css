@@ -378,14 +378,26 @@ footer{
 	width: 100%;
 }
 
-.hum-blurb{
+.album-container{
+	position: relative;
+}
+
+.album-notes{
+	position: relative;
+}
+
+.sound-credit{
+	position: relative;
+}
+
+#hum{
 	background-color: aliceblue;
 }
 
-.work-blurb{
+#work{
 	background-color: burlywood;
 }
 
-.people-house-blurb{
+#people-house{
 	background-color: hotpink;
 }
