@@ -206,7 +206,7 @@ footer{
 	animation-name: rainbow;
 	animation-delay: 3s;
 	animation-duration: 3s;
-	animation-iteration-count: 1;
+	animation-iteration-count: 3;
 	animation-fill-mode: forwards;
 }
 
@@ -222,11 +222,7 @@ footer{
 
 #music-link{
 	top: 400px;
-	animation-name: rainbow;
-	animation-duration: 3s;
 	animation-iteration-count: 1s;
-	animation-fill-mode: forwards;
-	animation-direction: reverse;
 }
 
 #about-link{
