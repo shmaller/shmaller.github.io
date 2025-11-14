@@ -415,6 +415,7 @@ ul{
 .album-container{
 	position: relative;
 	height: 500px; 
+	width: 1000px;
 }
 
 .album-notes{
@@ -425,9 +426,15 @@ ul{
 }
 
 .sound-credit{
-	position: absolute;
+	position: static;
 	width: 500px;
 	margin: 0;
+	/* margin-left: 500px; */
+}
+
+.studio-img{
+	position: absolute;
+	margin-top: 0px;
 	margin-left: 500px;
 }
 
