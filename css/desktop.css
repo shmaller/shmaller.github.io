@@ -479,3 +479,19 @@ ul{
 	2px -2px 3px black,
 	-2px 2px 3px black;
 }
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*404 style*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.fourohfour-p{
+	position: absolute; 
+	top: 30%; 
+	color: white;
+	text-shadow: 2px 2px 3px black,
+	-2px -2px 3px black,
+	2px -2px 3px black,
+	-2px 2px 3px black;
+}
