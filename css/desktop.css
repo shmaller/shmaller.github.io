@@ -148,6 +148,11 @@ ul{
 	to{left: 500px}
 }
 
+@keyframes typewriter{
+	from{width: 0;}
+	to{width: 700px;}
+}
+
 @keyframes dance {
 	0% {transform: translate(10px, 10px);}
 	17% {transform: translate(-10px, -10px);}
@@ -164,6 +169,17 @@ ul{
 	40% {color:antiquewhite}
 	60% {color:chocolate}
 	80% {color:aquamarine }
+}
+
+@keyframes point-down{
+	from{
+		height: 100%;
+		width: 100%;
+	}
+	to{
+		height: 150%;
+		width: 150%;
+	}
 }
 
 /*-------------------------------------*/

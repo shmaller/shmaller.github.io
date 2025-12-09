@@ -20,11 +20,43 @@
 	</head>
 
 	<body style="background-color: antiquewhite;">
+		<img class="block-photo" style="position: relative;" src="/images/sound/showpic.jpg">
+
+		<article id="music-logos" style="position: absolute; top: 200px">
+			<a href="https://nicholasboni.bandcamp.com" target="_blank"><img src="/images/sound/bc-logo.png" style="position: absolute; left: 300px; animation: fade-in; animation-duration: 1s; animation-iteration-count: 1; animation-fill-mode: both; animation-delay: 1s;"></a>
+			<a href="https://open.spotify.com/artist/1wYtIktPmRMsisV4s2HGx1" target="_blank"><img src="/images/sound/spotify.png" style="position: absolute; left:550px; height: 128px; width: 128px; animation: fade-in; animation-duration: 1.2s; animation-iteration-count: 1; animation-fill-mode: both; animation-delay: 1s;"></a>
+			<a href="https://music.apple.com/us/artist/nicholas-boni/1798104471" target="_blank"><img src="/images/sound/apple.svg" style="position: absolute; left: 800px; height: 128px; width: 128px;animation: fade-in; animation-duration: 1.4s; animation-iteration-count: 1; animation-fill-mode: both; animation-delay: 1s;"></a>
+			<a href="https://music.youtube.com/channel/UC_csV7lJ_bIu9sZ0-h-CwQw" target="_blank"><img src="/images/sound/yt.png" style="position: absolute; left: 1000px; height: 128px; width: auto;animation: fade-in; animation-duration: 1.6s; animation-iteration-count: 1; animation-fill-mode: both; animation-delay: 1s;"></a>
+			<p style="
+			position: absolute; 
+			overflow: hidden;
+			top: 175px; 
+			left: 300px;
+			/* width: 670px;  */
+			font-size: 24pt; 
+			color:white; 
+			white-space: nowrap;
+			margin: 0 auto;
+			animation-name: typewriter; 
+			animation-duration: 3s; 
+			animation-iteration-count: 1; 
+			animation-fill-mode: both;
+			animation-timing-function: steps(71);
+			animation-delay: 2.5s;
+			">
+				...or search 'Nicholas Boni' on any streaming service.
+			</p>
+		</article>
+
+		<a href="#sound"><img src="/images/downarrow.png" class="nav-icon" style="position: absolute; top: 600px; left: 397px; animation-name: fade-in; animation-duration: 1s; animation-delay: 7s; animation-fill-mode: both;"></a>
+
 		<header>
 			<a href='/'><img class='nav-icon' src='/images/homeicon.png'></a>
 
-			<h1 class="writing-h1 bw-header">Sound</h1>
+			<h1 class="writing-h1 bw-header" id="sound">Sound</h1>
 		</header>
+
+
 
 		<nav id="toc" class="music-toc">
 			<h2 style="font-family: Arial, Helvetica, sans-serif;">Contents</h2>
@@ -215,5 +247,10 @@
 				</article>
 			</div>
 		</article>
+		<footer>
+			<p>
+				<a href="#">Back to the top.</a>
+			</p>
+		</footer>
 	</body>
 </html>
