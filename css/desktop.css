@@ -424,6 +424,38 @@ ul{
 	top: 25%
 }
 
+.music-logo{
+	position: absolute;
+	width: 8.85vw;
+	height: auto;
+	animation: fade-in;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+	animation-delay: 1s;
+}
+
+.bc-logo{
+	left: 15vw;
+	animation-duration: 1s;
+}
+
+.spotify-logo{
+	left: 32vw;
+	animation-duration: 1.2s;
+}
+
+.apple-music-logo{
+	left: 49vw;
+	animation-duration: 1.4s;
+}
+
+.youtube-music-logo{
+	left: 66vw;
+	animation-duration: 1.6s;
+	height: 8.85vw;
+	width: auto;
+}
+
 .embedded-player{
 	position: absolute; 
 	border: 0; 
