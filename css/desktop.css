@@ -30,6 +30,10 @@ a{
 	text-align: left;
 } */
 
+h3{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 p{
 	font-family:"Baskerville Old Face",Times,serif;
 	font-size: 14pt;
@@ -144,6 +148,11 @@ ul{
 	to{left: 500px}
 }
 
+@keyframes typewriter{
+	from{width: 0;}
+	to{width: 700px;}
+}
+
 @keyframes dance {
 	0% {transform: translate(10px, 10px);}
 	17% {transform: translate(-10px, -10px);}
@@ -160,6 +169,17 @@ ul{
 	40% {color:antiquewhite}
 	60% {color:chocolate}
 	80% {color:aquamarine }
+}
+
+@keyframes point-down{
+	from{
+		height: 100%;
+		width: 100%;
+	}
+	to{
+		height: 150%;
+		width: 150%;
+	}
 }
 
 /*-------------------------------------*/
@@ -400,6 +420,76 @@ ul{
 /*-------------------------------------*/
 /*-------------------------------------*/
 
+.music-links{
+	top: 25%
+}
+
+.sound-landing{
+	position: relative;
+}
+
+.music-logo{
+	position: absolute;
+	top: 18%;
+	width: 8.85vw;
+	height: auto;
+	animation: fade-in;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+	animation-delay: 1s;
+}
+
+.bc-logo{
+	left: 16vw;
+	animation-duration: 1s;
+}
+
+.spotify-logo{
+	left: 33vw;
+	animation-duration: 1.2s;
+}
+
+.apple-music-logo{
+	left: 50vw;
+	animation-duration: 1.4s;
+}
+
+.youtube-music-logo{
+	left: 63vw;
+	animation-duration: 1.6s;
+	height: 8.85vw;
+	width: auto;
+}
+
+.music-crawl{
+	position: absolute; 
+	overflow: hidden;
+	top: 70vh; 
+	left: 16vw;
+	font-size: 2.3vw; 
+	color:white; 
+	white-space: nowrap;
+	margin: 0 auto;
+	animation-name: typewriter; 
+	animation-duration: 3s; 
+	animation-iteration-count: 1; 
+	animation-fill-mode: both;
+	animation-timing-function: steps(54);
+	animation-delay: 2.5s;
+}
+
+.music-down-arrow{
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	top: 80vh;
+	left: 15vw;
+	animation-name: fade-in;
+	animation-duration: 1s;
+	animation-delay: 7s;
+	animation-fill-mode: both;
+}
+
 .embedded-player{
 	position: absolute; 
 	border: 0; 
@@ -407,9 +497,12 @@ ul{
 	height: 500px; 
 }
 
+#sltlo-player{
+	left: 607px;
+}
+
 .music-toc{
 	width: 500px; 
-	border: 1px solid black;
 }
 
 .album-container{
@@ -419,16 +512,24 @@ ul{
 }
 
 .album-notes{
-	position: relative;
+	position: absolute;
 	margin: 0;
 	top: 0;
-	margin-left: 400px;
+	width: 500px;
+}
+
+#lfla-notes{
+	left: 400px;
+}
+
+#sltlo-notes{
+	left: 10px;
 }
 
 .sound-credit{
-	position: static;
-	width: 500px;
-	margin: 0;
+	position: absolute;
+	/* width: 500px; */
+	/* margin: 0; */
 	/* margin-left: 500px; */
 }
 
@@ -438,21 +539,24 @@ ul{
 	margin-left: 500px;
 }
 
-#hum{
-	top: 0;
-	background-color: aliceblue;
+#work-container{
+	height: 382px;
+	margin-left:15%
 }
 
-#work{
-	top: 245px;
-	background-color: burlywood;
+#work-notes{
+	left: 400px;
 }
 
-#people-house{
+#people-house-container{
 	top: 445px;
-	background-color: hotpink;
+	background-color: thistle;
 }
 
+#people-house-player{
+	position: absolute;
+	left: 500px;
+}
 
 .lfla-player-notes{
 	position: relative; height: 500px;

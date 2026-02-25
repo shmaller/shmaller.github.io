@@ -15,44 +15,53 @@
 
 		<link rel="canonical" href="https://nicholasboni.com/sound/" />
 		<link rel='icon' href='/images/favicon.ico' type='image/x-icon'>
-		<link rel="stylesheet" media="screen and (min-width: 759px)" href="/css/desktop.css" />
-		<link rel="stylesheet" media="screen and (max-width: 758px)" href="/css/mobile.css" />
+		<link rel="stylesheet" media="screen and (min-width: 1000px)" href="/css/desktop.css" />
+		<link rel="stylesheet" media="screen and (max-width: 999px)" href="/css/mobile.css" />
 	</head>
 
 	<body style="background-color: antiquewhite;">
-		<div id="header">
+		<article class="sound-landing">			
+			<img class="block-photo" style="position: relative;" src="/images/sound/showpic.jpg">
+
+			<div id="music-logos">
+				<a href="https://nicholasboni.bandcamp.com" target="_blank"><img src="/images/sound/bc-logo.png" class="music-logo bc-logo"></a>
+				<a href="https://open.spotify.com/artist/1wYtIktPmRMsisV4s2HGx1" target="_blank"><img src="/images/sound/spotify.png" class="music-logo spotify-logo"></a>
+				<a href="https://music.apple.com/us/artist/nicholas-boni/1798104471" target="_blank"><img src="/images/sound/apple.svg" class="music-logo apple-music-logo"></a>
+				<a href="https://music.youtube.com/channel/UC_csV7lJ_bIu9sZ0-h-CwQw" target="_blank"><img src="/images/sound/yt.png" class="music-logo youtube-music-logo"></a>
+				<p class="music-crawl drop-shadow">
+					...or search 'Nicholas Boni' on any streaming service.
+				</p>
+			</div>
+
+			<a href="#sound"><img src="/images/downarrow.png" class="nav-icon music-down-arrow"></a>
+		</article>
+		<header>
 			<a href='/'><img class='nav-icon' src='/images/homeicon.png'></a>
 
-			<h1 class="writing-h1 bw-header">Sound</h1>
-		</div>
+			<h1 class="writing-h1 bw-header" id="sound">Sound</h1>
+		</header>
 
 		<nav id="toc" class="music-toc">
 			<h2 style="font-family: Arial, Helvetica, sans-serif;">Contents</h2>
 			<ul>
-				<li>Original music
+				<li style="list-style: none;"><b>Original music</b>
 					<ul>
-						<li>
-							<a href="#lost&found&lostagain-blurb"><i>lost&found&lostagain</i></a>
-						</li>
+						<li><a href="#lost&found&lostagain"><i>lost&found&lostagain</i></a></li>
+						<li><a href="#sltlo"><i>Someone Left The Light On</i></a></li>
 					</ul>
 				</li>
-				<li>Sound engineering
+				<br>
+				<li style="list-style: none;"><b>Sound engineering</b>
 					<ul>
-						<li>
-							<a href="#hum">Julie Piñero: "Hum"</a>
-						</li>
-						<li>
-							<a href="#work">Isabelle Rashkin feat. Chase Gilbertson: "Work"</a>
-						</li>
-						<li>
-							<a href="#people-in-my-house">Isabelle Rashkin: "People In My House"</a>
-						</li>
+						<li><a href="#hum">Julie Piñero: "Hum"</a></li>
+						<li><a href="#work">Isabelle Rashkin feat. Chase Gilbertson: "Work"</a></li>
+						<li><a href="#people-in-my-house">Isabelle Rashkin: "People In My House"</a></li>
 					</ul>
 				</li>
 			</ul>
 		</nav>
 
-		<article id="lost&found&lostagain-blurb">
+		<article id="lost&found&lostagain">
 			<h2 class="bw-header"><i>lost&found&lostagain</i></h2>
 
 			<div class="album-container">
@@ -65,7 +74,7 @@
 					<a href="https://nicholasboni.bandcamp.com/album/lost-found-lostagain" target="_blank">lost&amp;found&amp;lostagain by Nicholas Boni</a>
 				</iframe>
 
-				<div class="album-notes">
+				<div class="album-notes" id="lfla-notes">
 					<p class="no-indent">
 						<i>lost&found&lostagain</i>, my first full-length album, released on May 3, 2025.
 					</p>
@@ -102,17 +111,48 @@
 			</div>	
 		</article>
 
+		<article id="sltlo">
+			<h2 class="bw-header"><i>Someone Left The Light On</i></h2>
+
+			<div class="album-container">
+				<iframe class="embedded-player" 
+				id="sltlo-player"
+				src="https://bandcamp.com/EmbeddedPlayer/album=2127518941/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" 
+				seamless>
+					<a href="https://nicholasboni.bandcamp.com/album/someone-left-the-light-on">Someone Left The Light On by Monsters in the Attic</a>
+				</iframe>
+
+				<div class="album-notes" id="sltlo-notes">
+					<p class="no-indent">
+						<i>Someone Left The Light On</i> is an EP I recorded with my band in college, Monsters in the Attic.
+					</p>
+
+					<p class="no-indent">
+						It's instrumental post-rock.
+					</p>
+
+					<p class="no-indent">
+						You can stream and download the EP for free on Bandcamp.
+					</p>
+
+					<p class="no-indent">
+						I played the guitar and bass, and mixed the EP. Full credits can be found on Bandcamp.
+					</p>
+				</div>
+			</div>
+		</article>
+
 		<article id="sound-engineering">
 			<h2 class="bw-header">Sound engineering</h2>
 
-			<p style="margin-left: 75px">
-				If you're interested in collaborating with me, <a href="/about">reach out!</a>
+			<p>
+				If you're interested in collaborating with me, <a href="/about/">reach out!</a>
 			</p>
 
 			<div style="position: relative;">
-				<img src="/images/sound/studio.jpg" alt="in the studio" class="studio-img">
+				<!-- <img src="/images/sound/studio.jpg" alt="in the studio" class="studio-img"> -->
 
-				<article id="hum" class="sound-credit">
+				<article id="hum" style="background-color: aliceblue;">
 					<h3 class="indent">"Hum"</h3>
 
 					<p>
@@ -131,23 +171,57 @@
 					</p>
 				</article>
 
-				<article id="work" class="sound-credit">
+				<article id="work" style="background-color: burlywood;">
 					<h3 class="indent">"Work"</h3>
-					<p>"Work" is a single by <a href="https://isabellerashkin.com">Isabelle "Bee" Rashkin</a> and <a href="https://www.instagram.com/chasegarchive/" target="_blank">Chase Gilbertson</a>.</p>
-					<p>I mastered the song.</p>
-					<p><a href="https://youtu.be/_kPvEN4edck">You can listen to "Work" on YouTube.</a></p>
+
+					<div class="album-container" id="work-container">
+						<iframe 
+						width="382"
+						height="382"
+						src="https://www.youtube.com/embed/_kPvEN4edck?si=x28XzePj5zd5bqCN" 
+						title="YouTube video player" 
+						frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+						allowfullscreen>
+						</iframe>
+						<div class="album-notes" id="work-notes">
+							<p>"Work" is a single by <a href="https://isabellerashkin.com">Isabelle "Bee" Rashkin</a> and <a href="https://www.instagram.com/chasegarchive/" target="_blank">Chase Gilbertson</a>.</p>
+							<p>I mastered the song.</p>
+							<p><a href="https://youtu.be/_kPvEN4edck">You can listen to "Work" on YouTube.</a></p>
+						</div>
+					</div>
 				</article>
 
-				<article id="people-house" class="sound-credit">
+				<article id="people-in-my-house" style="background-color: thistle;">
 					<h3 class="indent">"People In My House"</h3>
+					<div class="album-container" id="work-container">
+						<iframe 
+						id="people-house-player"
+						width="382"
+						height="382"
+						src="https://www.youtube.com/embed/3ncWuOt1cTo?si=Uoq9TKc6_-99Lqfq" 
+						title="YouTube video player" 
+						frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+						referrerpolicy="strict-origin-when-cross-origin" 
+						allowfullscreen>
+						</iframe>
+						<div class="album-notes" style="left: 10px;">
+							<p class="no-indent">"People In My House" is a single by Isabelle "Bee" Rashkin.</p>
 
-					<p>"People In My House" is a single by Isabelle "Bee" Rashkin.</p>
+							<p class="no-indent">I engineered the session in my home studio, played the bass, helped program the drums, and mixed the track.</p>
 
-					<p>I engineered the session in my home studio, played the bass, programmed the drums, and mixed the track.</p>
-
-					<p><a href="https://youtu.be/3ncWuOt1cTo" target="_blank">You can listen to "People in My House" on YouTube.</a></p>
+							<p class="no-indent"><a href="https://youtu.be/3ncWuOt1cTo" target="_blank">You can listen to "People in My House" on YouTube.</a></p>
+					
+						</div>
+					</div>
 				</article>
 			</div>
 		</article>
+		<footer>
+			<p>
+				<a href="#">Back to the top.</a>
+			</p>
+		</footer>
 	</body>
 </html>
