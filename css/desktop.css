@@ -424,8 +424,13 @@ ul{
 	top: 25%
 }
 
+.sound-landing{
+	position: relative;
+}
+
 .music-logo{
 	position: absolute;
+	top: 18%;
 	width: 8.85vw;
 	height: auto;
 	animation: fade-in;
@@ -435,25 +440,54 @@ ul{
 }
 
 .bc-logo{
-	left: 15vw;
+	left: 16vw;
 	animation-duration: 1s;
 }
 
 .spotify-logo{
-	left: 32vw;
+	left: 33vw;
 	animation-duration: 1.2s;
 }
 
 .apple-music-logo{
-	left: 49vw;
+	left: 50vw;
 	animation-duration: 1.4s;
 }
 
 .youtube-music-logo{
-	left: 66vw;
+	left: 63vw;
 	animation-duration: 1.6s;
 	height: 8.85vw;
 	width: auto;
+}
+
+.music-crawl{
+	position: absolute; 
+	overflow: hidden;
+	top: 70vh; 
+	left: 16vw;
+	font-size: 2.3vw; 
+	color:white; 
+	white-space: nowrap;
+	margin: 0 auto;
+	animation-name: typewriter; 
+	animation-duration: 3s; 
+	animation-iteration-count: 1; 
+	animation-fill-mode: both;
+	animation-timing-function: steps(54);
+	animation-delay: 2.5s;
+}
+
+.music-down-arrow{
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	top: 80vh;
+	left: 15vw;
+	animation-name: fade-in;
+	animation-duration: 1s;
+	animation-delay: 7s;
+	animation-fill-mode: both;
 }
 
 .embedded-player{
@@ -461,6 +495,10 @@ ul{
 	border: 0; 
 	width: 382px; 
 	height: 500px; 
+}
+
+#sltlo-player{
+	left: 607px;
 }
 
 .music-toc{
@@ -480,6 +518,14 @@ ul{
 	width: 500px;
 }
 
+#lfla-notes{
+	left: 400px;
+}
+
+#sltlo-notes{
+	left: 10px;
+}
+
 .sound-credit{
 	position: absolute;
 	/* width: 500px; */
@@ -493,21 +539,29 @@ ul{
 	margin-left: 500px;
 }
 
-#hum{
+#hum-notes{
 	top: 0;
 	background-color: aliceblue;
 }
 
-#work{
-	top: 245px;
-	background-color: burlywood;
+#work-container{
+	height: 382px;
+	margin-left:15%
 }
 
-#people-house{
+#work-notes{
+	left: 400px;
+}
+
+#people-house-container{
 	top: 445px;
 	background-color: thistle;
 }
 
+#people-house-player{
+	position: absolute;
+	left: 500px;
+}
 
 .lfla-player-notes{
 	position: relative; height: 500px;
