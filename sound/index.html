@@ -20,70 +20,42 @@
 	</head>
 
 	<body style="background-color: antiquewhite;">
-		<img class="block-photo" style="position: relative;" src="/images/sound/showpic.jpg">
+		<article class="sound-landing">			
+			<img class="block-photo" style="position: relative;" src="/images/sound/showpic.jpg">
 
-		<article id="music-logos" style="position: absolute; top: 20vh;">
-			<a href="https://nicholasboni.bandcamp.com" target="_blank"><img src="/images/sound/bc-logo.png" class="music-logo bc-logo"></a>
-			<a href="https://open.spotify.com/artist/1wYtIktPmRMsisV4s2HGx1" target="_blank"><img src="/images/sound/spotify.png" class="music-logo spotify-logo"></a>
-			<a href="https://music.apple.com/us/artist/nicholas-boni/1798104471" target="_blank"><img src="/images/sound/apple.svg" class="music-logo apple-music-logo"></a>
-			<a href="https://music.youtube.com/channel/UC_csV7lJ_bIu9sZ0-h-CwQw" target="_blank"><img src="/images/sound/yt.png" class="music-logo youtube-music-logo"></a>
-			<p class="drop-shadow"
-			style="
-			position: absolute; 
-			overflow: hidden;
-			top: 44vh; 
-			left: 300px;
-			/* width: 670px;  */
-			font-size: 24pt; 
-			color:white; 
-			white-space: nowrap;
-			margin: 0 auto;
-			animation-name: typewriter; 
-			animation-duration: 3s; 
-			animation-iteration-count: 1; 
-			animation-fill-mode: both;
-			animation-timing-function: steps(54);
-			animation-delay: 2.5s;
-			">
-				...or search 'Nicholas Boni' on any streaming service.
-			</p>
+			<div id="music-logos">
+				<a href="https://nicholasboni.bandcamp.com" target="_blank"><img src="/images/sound/bc-logo.png" class="music-logo bc-logo"></a>
+				<a href="https://open.spotify.com/artist/1wYtIktPmRMsisV4s2HGx1" target="_blank"><img src="/images/sound/spotify.png" class="music-logo spotify-logo"></a>
+				<a href="https://music.apple.com/us/artist/nicholas-boni/1798104471" target="_blank"><img src="/images/sound/apple.svg" class="music-logo apple-music-logo"></a>
+				<a href="https://music.youtube.com/channel/UC_csV7lJ_bIu9sZ0-h-CwQw" target="_blank"><img src="/images/sound/yt.png" class="music-logo youtube-music-logo"></a>
+				<p class="music-crawl drop-shadow">
+					...or search 'Nicholas Boni' on any streaming service.
+				</p>
+			</div>
+
+			<a href="#sound"><img src="/images/downarrow.png" class="nav-icon music-down-arrow"></a>
 		</article>
-
-		<a href="#sound"><img src="/images/downarrow.png" class="nav-icon" style="position: absolute; width: 75px; height: 75px; top: 600px; left: 397px; animation-name: fade-in; animation-duration: 1s; animation-delay: 7s; animation-fill-mode: both;"></a>
-
 		<header>
 			<a href='/'><img class='nav-icon' src='/images/homeicon.png'></a>
 
 			<h1 class="writing-h1 bw-header" id="sound">Sound</h1>
 		</header>
 
-
-
 		<nav id="toc" class="music-toc">
 			<h2 style="font-family: Arial, Helvetica, sans-serif;">Contents</h2>
 			<ul>
 				<li style="list-style: none;"><b>Original music</b>
 					<ul>
-						<li>
-							<a href="#lost&found&lostagain-blurb"><i>lost&found&lostagain</i></a>
-						</li>
-						<li>
-							<a href="#sltlo-blurb"><i>Someone Left The Light On</i></a>
-						</li>
+						<li><a href="#lost&found&lostagain-blurb"><i>lost&found&lostagain</i></a></li>
+						<li><a href="#sltlo-blurb"><i>Someone Left The Light On</i></a></li>
 					</ul>
 				</li>
 				<br>
 				<li style="list-style: none;"><b>Sound engineering</b>
 					<ul>
-						<li>
-							<a href="#hum">Julie Piñero: "Hum"</a>
-						</li>
-						<li>
-							<a href="#work">Isabelle Rashkin feat. Chase Gilbertson: "Work"</a>
-						</li>
-						<li>
-							<a href="#people-in-my-house">Isabelle Rashkin: "People In My House"</a>
-						</li>
+						<li><a href="#hum">Julie Piñero: "Hum"</a></li>
+						<li><a href="#work">Isabelle Rashkin feat. Chase Gilbertson: "Work"</a></li>
+						<li><a href="#people-in-my-house">Isabelle Rashkin: "People In My House"</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -102,7 +74,7 @@
 					<a href="https://nicholasboni.bandcamp.com/album/lost-found-lostagain" target="_blank">lost&amp;found&amp;lostagain by Nicholas Boni</a>
 				</iframe>
 
-				<div class="album-notes" style="left: 400px;">
+				<div class="album-notes" id="lfla-notes">
 					<p class="no-indent">
 						<i>lost&found&lostagain</i>, my first full-length album, released on May 3, 2025.
 					</p>
@@ -144,13 +116,13 @@
 
 			<div class="album-container">
 				<iframe class="embedded-player" 
-				style="left: 618px;"
+				id="sltlo-player"
 				src="https://bandcamp.com/EmbeddedPlayer/album=2127518941/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" 
 				seamless>
 					<a href="https://nicholasboni.bandcamp.com/album/someone-left-the-light-on">Someone Left The Light On by Monsters in the Attic</a>
 				</iframe>
 
-				<div class="album-notes" style="left: 10px;">
+				<div class="album-notes" id="sltlo-notes">
 					<p class="no-indent">
 						<i>Someone Left The Light On</i> is an EP I recorded with my band in college, Monsters in the Attic.
 					</p>
@@ -180,7 +152,7 @@
 			<div style="position: relative;">
 				<!-- <img src="/images/sound/studio.jpg" alt="in the studio" class="studio-img"> -->
 
-				<article id="hum">
+				<article id="hum-notes">
 					<h3 class="indent">"Hum"</h3>
 
 					<p>
@@ -199,21 +171,20 @@
 					</p>
 				</article>
 
-				<article id="work">
+				<article id="work" style="background-color: burlywood;">
 					<h3 class="indent">"Work"</h3>
 
-					<div class="album-container indent" style="height: 382px;">
+					<div class="album-container" id="work-container">
 						<iframe 
-						style="position: absolute;"
-						width="382" 
-						height="382" 
+						width="382"
+						height="382"
 						src="https://www.youtube.com/embed/_kPvEN4edck?si=x28XzePj5zd5bqCN" 
 						title="YouTube video player" 
 						frameborder="0" 
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
 						allowfullscreen>
 						</iframe>
-						<div class="album-notes" style="left: 400px;">
+						<div class="album-notes" id="work-notes">
 							<p>"Work" is a single by <a href="https://isabellerashkin.com">Isabelle "Bee" Rashkin</a> and <a href="https://www.instagram.com/chasegarchive/" target="_blank">Chase Gilbertson</a>.</p>
 							<p>I mastered the song.</p>
 							<p><a href="https://youtu.be/_kPvEN4edck">You can listen to "Work" on YouTube.</a></p>
@@ -221,13 +192,13 @@
 					</div>
 				</article>
 
-				<article id="people-house">
+				<article id="people-house" style="background-color: thistle;">
 					<h3 class="indent">"People In My House"</h3>
-					<div class="album-container indent" style="height: 382px;">
+					<div class="album-container" id="work-container">
 						<iframe 
-						width="382" 
-						height="382" 
-						style="left: 500px; position: absolute;"
+						id="people-house-player"
+						width="382"
+						height="382"
 						src="https://www.youtube.com/embed/3ncWuOt1cTo?si=Uoq9TKc6_-99Lqfq" 
 						title="YouTube video player" 
 						frameborder="0" 
