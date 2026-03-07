@@ -290,6 +290,13 @@ ul{
 	left: 600px
 }
 
+#friends-link{
+	top: 500px;
+	left: 410px;
+	animation-name: fade-in;
+	animation-duration: 2s;
+}
+
 .index-link{
 	color: white;
 }

@@ -230,6 +230,11 @@ footer{
 	animation-duration: 1.5s;
 }
 
+#friends-link{
+	top: 600px;
+	animation-duration: 2s;
+}
+
 /*-------------------------------------*/
 /*-------------------------------------*/
 /*Photo page style*/
