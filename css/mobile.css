@@ -262,12 +262,17 @@ footer{
 }
 
 #portrait-link{
-	top: 20%;
+	top: 40%;
 	left: 5%;
 }
 
 #erin-link{
-	top: 40%;
+	top: 60%;
+	left: 5%;
+}
+
+#postcards-link{
+	top: 20%;
 	left: 5%;
 }
 
