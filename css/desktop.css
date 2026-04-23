@@ -527,7 +527,7 @@ ul{
 	position: absolute;
 	margin: 0;
 	top: 0;
-	width: 500px;
+	width: 650px;
 }
 
 #lfla-notes{
@@ -540,9 +540,9 @@ ul{
 
 .sound-credit{
 	position: absolute;
-	/* width: 500px; */
-	/* margin: 0; */
-	/* margin-left: 500px; */
+	margin: 0;
+	top: 0;
+	width: 500px;
 }
 
 .studio-img{
