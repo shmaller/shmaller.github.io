@@ -519,8 +519,15 @@ ul{
 
 .album-container{
 	position: relative;
-	height: 575px; 
 	width: 1000px;
+}
+
+#lfla-container{
+	height: 575px;
+}
+
+#sltlo-container{
+	height: 500px;
 }
 
 .album-notes{
