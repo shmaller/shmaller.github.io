@@ -150,7 +150,7 @@ ul{
 
 @keyframes typewriter{
 	from{width: 0;}
-	to{width: 700px;}
+	to{width: 750px;}
 }
 
 @keyframes dance {
@@ -519,8 +519,15 @@ ul{
 
 .album-container{
 	position: relative;
-	height: 500px; 
 	width: 1000px;
+}
+
+#lfla-container{
+	height: 575px;
+}
+
+#sltlo-container{
+	height: 500px;
 }
 
 .album-notes{
@@ -528,6 +535,10 @@ ul{
 	margin: 0;
 	top: 0;
 	width: 650px;
+}
+
+.first-p{
+	top: 0;
 }
 
 #lfla-notes{
