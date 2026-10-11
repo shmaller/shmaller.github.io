@@ -7,45 +7,52 @@
 /*-------------------------------------*/
 /*-------------------------------------*/
 
-html{
-	scroll-behavior: smooth;
+html{ scroll-behavior: smooth; }
+body{ margin:0; }
+
+a{ color: #5c72ff; }
+
+h1, h2, h3{
+	font-family: sans-serif;
+	margin: 0;
 }
 
-a{
-	color: #5c72ff;
+h1{
+	font-size: xxx-large;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+h2{font-size: x-large;}
+h3{font-size: large;}
+
+.nav-header{
+	padding-top: 40px;
+	padding-left: 100px;
+}
+.body-header{
+	margin:0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 100px;
+}
+.bw{
+	background-color:black;
+	color:white;
 }
 
-/* h1{
-	margin-top: 0;
-	margin-bottom: 0;
-} */
-
-/* h2{
-	font-family:"Baskerville Old Face",Times,serif;
-	font-size: 18pt;
-	margin-top: 5%;
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-bottom: 5%;
-	text-align: left;
-} */
-
-h3{
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-p{
-	font-family:"Baskerville Old Face",Times,serif;
-	font-size: 14pt;
-	margin-top: 1em;
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-bottom: 1em;
+p, nav, footer{ 
+	font-family: Times, serif;
+	margin: 10px;
 	text-align: justify;
+	font-size: large;
+}
+.prose{ 
+	margin-inline: auto; 
+	width: 65%;
 }
 
 blockquote{
-	font-family:"Baskerville Old Face",Times,serif;
+	font-family: Times,serif;
 	font-size: 14pt;
 	margin-top: 5%;
 	margin-left: 20%;
@@ -54,47 +61,13 @@ blockquote{
 	text-align: justify;
 }
 
-body{
-	margin:0;
-}
-
-ul{
-	font-family: "Baskerville Old Face",Times,serif;
-	font-size: 14pt;
-}
+ul{	font-family: Times,serif; font-size: large;}
 
 .indent{
-	margin-left: 15%;
+	margin-left: 50px;
 }
-
 .no-indent{
 	margin-left: 0;
-}
-
-/* nav{
-	font-family:"Baskerville Old Face",Times,serif;
-	font-size: 14pt;
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-bottom: 5%;
-} */
-
-/* footer{
-	font-family: "Baskerville Old Face",Times,serif;
-	font-size: 14pt;
-	margin-top: 1em;
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-bottom: 1em;
-} */
-
-.bw-header{
-	margin:0px;
-	padding-left: 10%;
-	font-family:"Arial",sans-serif;
-	font-size: xx-large;
-	background-color:black;
-	color:white;
 }
 
 .header-no-bg{
@@ -385,14 +358,6 @@ ul{
 	background-image: url(https://nicholasboni.com/images/writing/paper2.jpg);
 }
 
-/* .writing-links{
-	margin-top: 1%;
-	margin-bottom: 1%;
-	margin-left: 15%;
-	font-family: "Baskerville Old Face",Times,serif;
-	font-size: 14pt;
-} */
-
 .check-my-phone-meme{
 	display: block;
 	max-width: 40%;
@@ -514,6 +479,7 @@ ul{
 }
 
 .music-toc{
+	/* margin: 10px; */
 	width: 500px; 
 }
 
@@ -523,7 +489,7 @@ ul{
 }
 
 #lfla-container{
-	height: 575px;
+	height: 500px;
 }
 
 #sltlo-container{
@@ -534,15 +500,11 @@ ul{
 	position: absolute;
 	margin: 0;
 	top: 0;
-	width: 650px;
-}
-
-.first-p{
-	top: 0;
+	width: 600px;
 }
 
 #lfla-notes{
-	left: 400px;
+	left: 382px;
 }
 
 #sltlo-notes{
@@ -593,13 +555,17 @@ ul{
 
 .about-header{
 	position: absolute; 
+	margin-left: 0;
+	padding-left: 10%;
+	padding-top: 15px;
 	top: 20%;
 	font-size: xxx-large;
 }
-
 .about-p{
 	position: absolute; 
-	top: 30%; 
+	top: 35%; 
+	left: 15%;
+	width: 70%;
 	color: white;
 	text-shadow: 2px 2px 3px black,
 	-2px -2px 3px black,
@@ -633,7 +599,7 @@ ul{
 
 .fourohfour-p{
 	position: absolute; 
-	top: 30%; 
+	top: 35%; 
 	color: white;
 	text-shadow: 2px 2px 3px black,
 	-2px -2px 3px black,

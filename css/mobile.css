@@ -7,39 +7,45 @@
 /*-------------------------------------*/
 /*-------------------------------------*/
 
-html{
-	scroll-behavior: smooth;
+html{ scroll-behavior: smooth; }
+body{ margin:0; }
+
+h1, h2, h3{
+	font-family: sans-serif;
+	margin: 0;
+}
+h1{
+	font-size: xxx-large;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+h2{font-size: x-large;}
+h3{font-size: large;}
+.nav-header{
+	padding-top: 40px;
+	padding-left: 75px;
+}
+.body-header{
+	margin:0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
 }
 
-/* h1{
-	margin:0px;
-	padding-left: 10%;
-	font-family:"Arial",sans-serif;
+.bw{
 	background-color:black;
 	color:white;
-} */
+}
 
-/* h2{
-	font-family:"Baskerville Old Face",Times,serif;
-	font-size: 18pt;
-	margin-top: 5%;
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-bottom: 5%;
-	text-align: left;
-} */
-
-p{
-	font-family:"Baskerville Old Face",Times,serif;
-	font-size: 14pt;
-	margin-top: 1em;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-bottom: 1em;
+p, nav, footer{ 
+	font-family: Times, serif;
+	margin: 10px;
+	text-align: justify;
+	font-size: large;
 }
 
 blockquote{
-	font-family:"Baskerville Old Face",Times,serif;
+	font-family:Times,serif;
 	font-size: 14pt;
 	margin-top: 1em;
 	margin-left: 20%;
@@ -47,33 +53,17 @@ blockquote{
 	margin-bottom: 1em;
 }
 
-body{
-	margin:0;
-}
-
-ul{
-	font-family: "Baskerville Old Face",Times,serif;
-	font-size: 14pt;
-}
+ul{	font-family: Times,serif; font-size: large;}
 
 .indent{
-	margin-left: 5%;
+	margin-left: 50px;
 }
-
 .no-indent{
 	margin-left: 0;
 }
 
-nav{
-	font-family:"Baskerville Old Face",Times,serif;
-	font-size: 14pt;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-bottom: 5%
-}
-
 footer{
-	font-family: "Baskerville Old Face",Times,serif;
+	font-family: Times,serif;
 	font-size: 14pt;
 	margin-top: 1em;
 	margin-left: 5%;
@@ -443,7 +433,6 @@ footer{
 
 .album-notes{
 	position: relative;
-	margin-left: 5%;
 }
 
 .sound-credit{
@@ -460,4 +449,44 @@ footer{
 
 #people-house{
 	background-color: hotpink;
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*About style*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.about-header{
+	padding: 5px;
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*Friend sites style*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.friend-site{
+	color: white;
+}
+
+.friend-site:hover{
+	color: yellow;
+}
+
+.friend-site:active{
+	color: purple;
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*404 style*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.fourohfour-p{
+	position: absolute; 
+
+	color: black;
 }
