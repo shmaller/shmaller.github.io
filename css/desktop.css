@@ -246,9 +246,16 @@ ul{	font-family: Times,serif; font-size: large;}
 	animation-duration: 1.5s;
 }
 
-#about-link{
+#code-link{
 	top: 400px;
 	left: 310px;
+	animation-name: fade-in;
+	animation-duration: 2.5s;
+}
+
+#about-link{
+	top: 500px;
+	left: 410px;
 	animation-name: fade-in;
 	animation-duration: 2s;
 }
@@ -264,8 +271,8 @@ ul{	font-family: Times,serif; font-size: large;}
 }
 
 #friends-link{
-	top: 500px;
-	left: 410px;
+	top: 600px;
+	left: 510px;
 	animation-name: fade-in;
 	animation-duration: 2s;
 }
