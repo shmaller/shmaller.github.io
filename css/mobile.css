@@ -200,29 +200,34 @@ footer{
 	animation-fill-mode: forwards;
 }
 
-#photos-link{
-	top: 300px;
+#writing-link{
+	top: 200px;
 	animation-duration: 0.5s;
 }
 
-#writing-link{
-	top: 200px;
-	animation-duration: 0.8s;
+#photos-link{
+	top: 300px;
+	animation-duration: 1s;
 }
 
 #music-link{
 	top: 400px;
-	animation-iteration-count: 1s;
-}
-
-#about-link{
-	top: 500px;
 	animation-duration: 1.5s;
 }
 
-#friends-link{
+#code-link{
+	top: 500px;
+	animation-iteration-count: 2s;
+}
+
+#about-link{
 	top: 600px;
-	animation-duration: 2s;
+	animation-duration: 2.5s;
+}
+
+#friends-link{
+	top: 700px;
+	animation-duration: 3s;
 }
 
 /*-------------------------------------*/
