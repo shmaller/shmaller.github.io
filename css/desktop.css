@@ -19,14 +19,13 @@ h1, h2, h3{
 
 h1{
 	font-size: xxx-large;
-	padding-top: 40px;
 	padding-bottom: 10px;
 }
 h2{font-size: x-large;}
 h3{font-size: large;}
 
 .nav-header{
-	padding-top: 40px;
+	padding-top: 27px;
 	padding-left: 100px;
 }
 .body-header{
