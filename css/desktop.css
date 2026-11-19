@@ -249,14 +249,14 @@ ul{	font-family: Times,serif; font-size: large;}
 	top: 400px;
 	left: 310px;
 	animation-name: fade-in;
-	animation-duration: 2.5s;
+	animation-duration: 2s;
 }
 
 #about-link{
 	top: 500px;
 	left: 410px;
 	animation-name: fade-in;
-	animation-duration: 2s;
+	animation-duration: 2.5s;
 }
 
 #latest-letter-link{
@@ -273,7 +273,7 @@ ul{	font-family: Times,serif; font-size: large;}
 	top: 600px;
 	left: 510px;
 	animation-name: fade-in;
-	animation-duration: 2s;
+	animation-duration: 3s;
 }
 
 .index-link{
