@@ -127,7 +127,7 @@ ul{	font-family: Times,serif; font-size: large;}
 
 @keyframes typewriter{
 	from{width: 0;}
-	to{width: 750px;}
+	to{width: 790px;}
 }
 
 @keyframes dance {
@@ -490,9 +490,9 @@ ul{	font-family: Times,serif; font-size: large;}
 }
 
 .music-toc{
-	/* margin: 10px; */
 	width: 500px; 
 }
+.music-toc ul{font-family: sans-serif;}
 
 .album-container{
 	position: relative;
@@ -537,7 +537,6 @@ ul{	font-family: Times,serif; font-size: large;}
 
 #work-container{
 	height: 382px;
-	margin-left:15%
 }
 
 #work-notes{

@@ -432,6 +432,8 @@ footer{
 	width: 100%;
 }
 
+.music-toc ul{font-family: sans-serif;}
+
 .album-container{
 	position: relative;
 }
