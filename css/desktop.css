@@ -583,7 +583,7 @@ ul{	font-family: Times,serif; font-size: large;}
 	-2px 2px 3px black;
 }
 
-.about-p p, nav{font-family: sans-serif;}
+.about-p p, .about-p nav{font-family: sans-serif;}
 
 /*-------------------------------------*/
 /*-------------------------------------*/
