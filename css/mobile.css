@@ -39,8 +39,8 @@ h3{font-size: large;}
 
 p, nav, footer{ 
 	font-family: Times, serif;
-	margin: 10px;
-	text-align: justify;
+	margin: 20px;
+	text-align: left;
 	font-size: large;
 }
 
@@ -53,7 +53,11 @@ blockquote{
 	margin-bottom: 1em;
 }
 
-ul{	font-family: Times,serif; font-size: large;}
+ul{	
+	font-family: Times,serif; 
+	font-size: large;
+	margin: 10px;
+}
 
 .indent{
 	margin-left: 50px;
