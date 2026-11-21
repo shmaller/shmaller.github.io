@@ -101,6 +101,11 @@ footer{
 	height: 50px;
 }
 
+.icon{
+	width: 50px;
+	height: 50px;
+}
+
 /*-------------------------------------*/
 /*-------------------------------------*/
 /*Index style*/
@@ -484,6 +489,11 @@ footer{
 
 .friend-site:active{
 	color: purple;
+}
+
+.webring-banner{
+	display: flex;
+	justify-content: center;
 }
 
 /*-------------------------------------*/
