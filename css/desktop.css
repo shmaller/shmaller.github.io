@@ -99,6 +99,11 @@ ul{	font-family: Times,serif; font-size: large;}
 	height: 50px;
 }
 
+.icon{
+	width: 50px;
+	height: 50px;
+}
+
 /*-------------------------------------*/
 /*-------------------------------------*/
 /*Animations*/
@@ -595,6 +600,11 @@ ul{	font-family: Times,serif; font-size: large;}
 
 .friend-site:active{
 	color: purple;
+}
+
+.webring-banner{
+	display: flex;
+	justify-content: center;
 }
 
 /*-------------------------------------*/
