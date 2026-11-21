@@ -616,6 +616,7 @@ ul{	font-family: Times,serif; font-size: large;}
 
 .code h1, .code h2, .code p, .code a{color: lime; font-family: monospace;}
 .code h1{padding-top: 40px;}
+.code h2{padding-top: 20px;}
 .code a{text-decoration: none;}
 .code a:hover{text-decoration: underline;}
 .code a:active{color: white;}
