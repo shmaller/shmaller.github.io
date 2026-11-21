@@ -99,6 +99,11 @@ ul{	font-family: Times,serif; font-size: large;}
 	height: 50px;
 }
 
+.icon{
+	width: 50px;
+	height: 50px;
+}
+
 /*-------------------------------------*/
 /*-------------------------------------*/
 /*Animations*/
@@ -122,7 +127,7 @@ ul{	font-family: Times,serif; font-size: large;}
 
 @keyframes typewriter{
 	from{width: 0;}
-	to{width: 750px;}
+	to{width: 790px;}
 }
 
 @keyframes dance {
@@ -485,9 +490,9 @@ ul{	font-family: Times,serif; font-size: large;}
 }
 
 .music-toc{
-	/* margin: 10px; */
 	width: 500px; 
 }
+.music-toc ul{font-family: sans-serif;}
 
 .album-container{
 	position: relative;
@@ -532,7 +537,6 @@ ul{	font-family: Times,serif; font-size: large;}
 
 #work-container{
 	height: 382px;
-	margin-left:15%
 }
 
 #work-notes{
@@ -579,6 +583,8 @@ ul{	font-family: Times,serif; font-size: large;}
 	-2px 2px 3px black;
 }
 
+.about-p p, .about-p nav{font-family: sans-serif;}
+
 /*-------------------------------------*/
 /*-------------------------------------*/
 /*Friend sites style*/
@@ -596,6 +602,23 @@ ul{	font-family: Times,serif; font-size: large;}
 .friend-site:active{
 	color: purple;
 }
+
+.webring-banner{
+	display: flex;
+	justify-content: center;
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*Code style*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.code h1, .code h2, .code p, .code a{color: lime; font-family: monospace;}
+.code h1{padding-top: 40px;}
+.code a{text-decoration: none;}
+.code a:hover{text-decoration: underline;}
+.code a:active{color: white;}
 
 /*-------------------------------------*/
 /*-------------------------------------*/
