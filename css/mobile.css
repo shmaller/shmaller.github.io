@@ -22,7 +22,7 @@ h1{
 h2{font-size: x-large;}
 h3{font-size: large;}
 .nav-header{
-	padding-top: 40px;
+	padding-top: 27px;
 	padding-left: 75px;
 }
 .body-header{
@@ -483,6 +483,17 @@ footer{
 .friend-site:active{
 	color: purple;
 }
+
+/*-------------------------------------*/
+/*-------------------------------------*/
+/*Code style*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+.code h1, .code h2, .code p, .code a{color: lime; font-family: monospace;}
+.code h1{padding-top: 40px;}
+.code h2{padding-left: 10px;}
+.code a:active{color: white;}
 
 /*-------------------------------------*/
 /*-------------------------------------*/
